@@ -5,7 +5,7 @@ value: false
 conditions:
   - value:
     - option: true
-      percentage: 31
+      percentage: 30
   group:
     name: DJ
 
