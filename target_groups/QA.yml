@@ -1,0 +1,11 @@
+type: target-group
+name: QA
+conditions:
+  - operator: in-array
+    property: soundcloud_id
+    operand:
+      - abcd1234
+      - absb2121
+      - sdlkjsdlkjsad
+      - dssdadsadsd
+      - dsa2321321sa
