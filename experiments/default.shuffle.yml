@@ -3,4 +3,4 @@ type: experiment
 name: shuffle
 platforms:
   - name: Browser
-    value: false
+    value: true
