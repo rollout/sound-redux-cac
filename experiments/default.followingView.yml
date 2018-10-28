@@ -1,8 +1,6 @@
 flag: default.followingView
 type: experiment
 name: following view
-platforms:
-  - name: Browser
     value: false
     conditions:
       - value:
