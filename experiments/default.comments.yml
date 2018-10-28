@@ -1,0 +1,6 @@
+flag: default.comments
+type: experiment
+name: comments
+platforms:
+  - name: Browser
+    value: true
