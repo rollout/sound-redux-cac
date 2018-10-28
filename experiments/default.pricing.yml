@@ -13,3 +13,5 @@ value:
     percentage: 33.33
   - option: free
     percentage: 34
+  - option: high
+    percentage: 3
