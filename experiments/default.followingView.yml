@@ -1,11 +1,13 @@
 flag: default.followingView
 type: experiment
 name: following view
-value: false
-conditions:
-  - value:
-    - option: true
-      percentage: 32
-  group:
-    name: DJ
-
+platforms:
+  - name: Browser
+    value: false
+    conditions:
+      - value:
+          - option: true
+            percentage: 32
+        group:
+          name: DJ
+value: true
