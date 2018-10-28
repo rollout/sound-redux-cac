@@ -4,6 +4,4 @@ name: repeat
 description: Repeat song button
 labels:
   - stable_state_experiments
-platforms:
-  - name: Browser
-    value: false
+value: false

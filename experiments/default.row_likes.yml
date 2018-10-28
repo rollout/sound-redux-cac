@@ -2,8 +2,3 @@ flag: default.row_likes
 type: experiment
 name: row likes
 description: For version a112
-platforms:
-  - name: Browser
-    value: true
-  - name: tizen
-    value: false
