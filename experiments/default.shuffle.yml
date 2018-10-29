@@ -4,4 +4,4 @@ name: shuffle
 platforms:
   - name: Browser
     value: false
-value: true
+value: false
