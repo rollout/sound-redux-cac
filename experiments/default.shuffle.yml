@@ -1,9 +1,4 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-platforms:
-  - name: NodeJS
-    value: false
-  - name: tizen
-    value: false
 value: true
