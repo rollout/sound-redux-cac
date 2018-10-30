@@ -3,8 +3,17 @@ type: experiment
 name: following view
 conditions:
   - value: true
+    dependency:
+      flag: default.repeat
+      value: 'true'
+  - value: true
     group:
       name:
         - internal employees
         - Beta Users
+  - value:
+      - option: true
+        percentage: 10
+    group:
+      name: DJ
 value: false
