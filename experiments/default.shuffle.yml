@@ -1,10 +1,6 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-conditions:
-  - value: true
-    group:
-      name: DJ
 value:
   - option: true
-    percentage: 50
+    percentage: 70
