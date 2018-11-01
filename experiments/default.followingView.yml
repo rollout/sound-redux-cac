@@ -1,7 +1,6 @@
 flag: default.followingView
 type: experiment
 name: following view
-enabled: false
 platforms:
   - name: Browser
     value: false
@@ -9,19 +8,4 @@ platforms:
     value: false
   - name: NodeJS
     value: false
-conditions:
-  - value: true
-    dependency:
-      flag: default.repeat
-      value: 'true'
-  - value: true
-    group:
-      name:
-        - internal employees
-        - Beta Users
-  - value:
-      - option: true
-        percentage: 10
-    group:
-      name: DJ
 value: false
