@@ -1,6 +1,8 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-value:
-  - option: true
-    percentage: 50
+conditions:
+  - value: true
+    group:
+      name: QA
+value: false
