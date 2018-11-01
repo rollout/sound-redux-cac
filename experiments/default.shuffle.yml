@@ -1,8 +1,7 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-conditions:
-  - value: true
-    group:
-      name: QA
+platforms:
+  - name: Browser
+    value: false
 value: false
