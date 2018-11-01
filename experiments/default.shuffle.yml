@@ -3,7 +3,7 @@ type: experiment
 name: shuffle
 platforms:
   - name: Browser
-    value: false
+    value: true
   - name: NodeJS
     value: false
 value: true
