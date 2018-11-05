@@ -1,4 +1,16 @@
 flag: default.followingView
 type: experiment
 name: following view
+conditions:
+  - value: true
+    group:
+      name: internal employees
+    version:
+      operator: semver-gte
+      semver: '1.2'
+  - value:
+      - option: true
+        percentage: 10
+    group:
+      name: Beta Users
 value: false
