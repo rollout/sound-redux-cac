@@ -3,4 +3,4 @@ name: DJ
 conditions:
   - operator: gte
     property: playlist_count
-    operand: 95
+    operand: 100
