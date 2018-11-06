@@ -1,18 +1,4 @@
 flag: default.followingView
 type: experiment
 name: following view
-conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'false'
-  - version:
-      operator: semver-lte
-      semver: 1.2.3
-  - value: true
-    group:
-      name:
-        - QA
-        - internal employees
-value:
-  - option: true
-    percentage: 11
+value: true
