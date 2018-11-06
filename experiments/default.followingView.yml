@@ -1,19 +1,4 @@
 flag: default.followingView
 type: experiment
 name: following view
-conditions:
-  - value: true
-    dependency:
-      flag: default.repeat
-      value: 'true'
-  - value: true
-    group:
-      name:
-        - internal employees
-        - Dev Team
-  - value:
-      - option: true
-        percentage: 10
-    group:
-      name: DJ
 value: false
