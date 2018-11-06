@@ -6,4 +6,9 @@ platforms:
     value: true
   - name: NodeJS
     value: false
-value: true
+conditions:
+  - group:
+      name: Anon
+value:
+  - option: true
+    percentage: 50
