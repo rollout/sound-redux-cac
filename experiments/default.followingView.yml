@@ -3,4 +3,4 @@ type: experiment
 name: following view
 value:
   - option: true
-    percentage: 50
+    percentage: 70
