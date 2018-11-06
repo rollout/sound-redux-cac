@@ -1,7 +1,6 @@
 flag: default.pricing
 type: experiment
 name: pricing
-enabled: false
 availableValues:
   - med
   - high
