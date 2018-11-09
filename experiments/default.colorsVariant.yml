@@ -1,0 +1,8 @@
+flag: default.colorsVariant
+type: experiment
+name: colors variant
+availableValues:
+  - red
+  - green
+  - blue
+value: []
