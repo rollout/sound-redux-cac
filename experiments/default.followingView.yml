@@ -4,4 +4,6 @@ flag: default.followingView
 type: experiment
 name: following viewd
 description: This is the description
-value: false
+value:
+  - option: true
+    percentage: 50
