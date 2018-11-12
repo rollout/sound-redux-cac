@@ -3,5 +3,4 @@
 flag: default.followingView
 type: experiment
 name: following viewd
-description: dfdsfdfs
 value: false
