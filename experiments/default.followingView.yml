@@ -6,4 +6,4 @@ name: following viewd
 description: This is the description
 value:
   - option: true
-    percentage: 50
+    percentage: 80
