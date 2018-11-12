@@ -3,4 +3,5 @@
 flag: default.followingView
 type: experiment
 name: following viewd
+description: 'This is '
 value: false
