@@ -2,8 +2,6 @@
 # URL: https://app.rollout.io/ex/5be4a6eab38fed12b215216e
 flag: default.followingView
 type: experiment
-name: following viewd
+name: following view
 description: This is the description
-value:
-  - option: true
-    percentage: 80
+value: true
