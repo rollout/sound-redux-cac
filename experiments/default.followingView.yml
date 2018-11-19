@@ -3,4 +3,7 @@
 flag: default.followingView
 type: experiment
 name: following view
+conditions:
+  - group:
+      name: internal employees
 value: false
