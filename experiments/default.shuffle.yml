@@ -8,6 +8,8 @@ platforms:
     value: true
   - name: NodeJS
     value: false
+  - name: tizen
+    value: false
 conditions:
   - group:
       name: Anon
