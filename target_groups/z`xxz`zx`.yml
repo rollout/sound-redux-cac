@@ -1,6 +1,0 @@
-type: target-group
-name: z`xxz`zx`
-conditions:
-  - operator: regex
-    property: country
-    operand: z`x`zxx`xz
