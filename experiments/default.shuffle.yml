@@ -6,9 +6,4 @@ name: shuffle
 platforms:
   - name: tizen
     value: false
-conditions:
-  - group:
-      name: Anon
-value:
-  - option: true
-    percentage: 50
+value: true
