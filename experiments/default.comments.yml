@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5cafa21607815a3094ae2
+flag: default.comments
+type: experiment
+name: comments
+platforms:
+  - name: Browser
+    value: true
+value: false
