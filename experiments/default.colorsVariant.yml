@@ -1,9 +1,0 @@
-flag: default.colorsVariant
-type: experiment
-name: colors variant
-enabled: false
-availableValues:
-  - red
-  - green
-  - blue
-value: []
