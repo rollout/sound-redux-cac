@@ -1,6 +1,0 @@
-type: target-group
-name: DJ
-conditions:
-  - operator: gte
-    property: playlist_count
-    operand: 100
