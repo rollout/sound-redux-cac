@@ -1,7 +1,0 @@
-type: target-group
-name: internal employees
-conditions:
-  - operator: regex
-    property: email
-    operand: .*@rollout\.io
-description: Rollout Emp
