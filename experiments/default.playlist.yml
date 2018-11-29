@@ -1,8 +1,0 @@
-flag: default.playlist
-type: experiment
-name: playlist
-labels:
-  - Gradual Rollout
-platforms:
-  - name: Browser
-    value: false
