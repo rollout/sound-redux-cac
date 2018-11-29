@@ -1,0 +1,5 @@
+type: target-group
+name: Anon
+conditions:
+  - operator: is-undefined
+    property: soundcloud_id
