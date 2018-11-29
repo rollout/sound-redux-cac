@@ -1,7 +1,0 @@
-type: target-group
-name: internal employees
-conditions:
-  - operator: eq
-    property: emailsssss
-    operand: '12'
-description: Rollout Emp
