@@ -6,7 +6,8 @@ name: following view
 conditions:
   - value:
       - option: true
-        percentage: 10
+        percentage: 5
+        from: 2018-11-30T00:00:00.000Z
     version:
       operator: semver-gte
       semver: '3.45'
