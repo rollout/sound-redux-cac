@@ -1,6 +1,0 @@
-flag: default.playlist
-type: experiment
-name: playlist
-labels:
-  - Gradual Rollout
-value: false
