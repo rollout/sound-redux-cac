@@ -1,0 +1,20 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5bfcf21607815a3094801
+flag: default.pricing
+type: experiment
+name: pricing
+availableValues:
+  - med
+  - high
+  - free
+labels:
+  - Gradual Rollout
+  - AB
+platforms:
+  - name: Browser
+    value:
+      - option: med
+        percentage: 33
+      - option: free
+        percentage: 34
+value: []
