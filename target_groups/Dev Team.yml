@@ -1,0 +1,8 @@
+type: target-group
+name: Dev Team
+conditions:
+  - operator: in-array
+    property: email
+    operand:
+      - mike@rollout.io
+      - alex@rollout.io
