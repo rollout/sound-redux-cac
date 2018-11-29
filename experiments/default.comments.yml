@@ -1,4 +1,0 @@
-flag: default.comments
-type: experiment
-name: comments
-value: true
