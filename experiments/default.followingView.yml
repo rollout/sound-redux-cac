@@ -6,5 +6,5 @@ name: following view
 conditions:
   - value: true
     group:
-      name: keren
+      name: keren a th
 value: false
