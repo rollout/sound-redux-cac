@@ -1,8 +1,0 @@
-type: target-group
-name: Beta Users
-conditions:
-  - operator: in-array
-    property: email
-    operand:
-      - nick@rollout.io
-      - alex@rollout.io
