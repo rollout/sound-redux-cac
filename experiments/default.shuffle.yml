@@ -3,4 +3,11 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
+conditions:
+  - value:
+      - option: true
+        percentage: 50
+    version:
+      operator: semver-gte
+      semver: 1.5.0
 value: false
