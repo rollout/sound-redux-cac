@@ -3,5 +3,5 @@ name: Internal employees
 conditions:
   - operator: regex
     property: email
-    operand: .*rollout\.io$
+    operand: .*@rollout\.io
 description: Rollout Emp
