@@ -4,8 +4,6 @@ conditions:
   - operator: in-array
     property: soundcloud_id
     operand:
-      - abcd1234
-      - absb2121
-      - sdlkjsdlkjsad
-      - dssdadsadsd
-      - dsa2321321sa
+      - xyz1234
+      - abcd
+      - ytre1209
