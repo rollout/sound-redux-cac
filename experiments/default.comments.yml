@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5bc4a0de7827910e65898705
-flag: default.comments
-type: experiment
-name: comments
-value: true
