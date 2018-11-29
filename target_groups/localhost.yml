@@ -1,6 +1,7 @@
 type: target-group
 name: localhost
 conditions:
-  - operator: regex
-    property: url
-    operand: 'http://127\.0.0\..*'
+  - operator: in-array
+    property: last_name
+    operand:
+      - keren
