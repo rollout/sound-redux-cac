@@ -5,5 +5,5 @@ type: experiment
 name: following view
 platforms:
   - name: NodeJS
-    value: false
+    value: true
 value: false
