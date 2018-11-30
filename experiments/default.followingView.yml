@@ -3,4 +3,10 @@
 flag: default.followingView
 type: experiment
 name: following view
+conditions:
+  - value: true
+    group:
+      name:
+        - Dev Team
+        - Internal emp
 value: false
