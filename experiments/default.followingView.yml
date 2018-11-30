@@ -1,9 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c003a9925182573410c5846
-flag: default.followingView
-type: experiment
-name: following view
-platforms:
-  - name: NodeJS
-    value: true
-value: false
