@@ -5,8 +5,17 @@ type: experiment
 name: following view
 conditions:
   - value: true
+    dependency:
+      flag: default.comments
+      value: 'true'
+  - value: true
     group:
       name:
         - Internal emp
         - Dev Team
+  - value:
+      - option: true
+        percentage: 20
+    group:
+      name: DJ
 value: false
