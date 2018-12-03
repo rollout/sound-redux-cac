@@ -1,9 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c00a46a25182573410c5931
-flag: default.followingView
-type: experiment
-name: following view
-platforms:
-  - name: Android
-    value: false
-value: true
