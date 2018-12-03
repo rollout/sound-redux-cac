@@ -6,13 +6,4 @@ name: following view
 platforms:
   - name: Android
     value: false
-conditions:
-  - value: true
-    group:
-      name:
-        - QA
-        - Beta Users
-    version:
-      operator: semver-gte
-      semver: 3.0.1
 value: false
