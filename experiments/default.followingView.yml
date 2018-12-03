@@ -6,4 +6,4 @@ name: following view
 platforms:
   - name: Android
     value: false
-value: false
+value: true
