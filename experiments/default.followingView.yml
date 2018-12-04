@@ -6,10 +6,4 @@ name: following view
 platforms:
   - name: Android
     value: false
-conditions:
-  - value:
-      - option: true
-        percentage: 20
-    group:
-      name: DJ
 value: false
