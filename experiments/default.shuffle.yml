@@ -6,11 +6,4 @@ name: shuffle
 platforms:
   - name: NodeJS
     value: true
-conditions:
-  - value:
-      - option: true
-        percentage: 50
-    version:
-      operator: semver-gte
-      semver: 1.5.0
 value: false
