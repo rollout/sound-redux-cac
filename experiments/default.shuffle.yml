@@ -6,4 +6,4 @@ name: shuffle
 platforms:
   - name: NodeJS
     value: true
-value: false
+value: true
