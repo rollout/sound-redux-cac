@@ -27,12 +27,18 @@ conditions:
     dependency:
       flag: default.shuffle
       value: 'true'
+    version:
+      operator: semver-gte
+      semver: '2121'
   - value: med
     group:
       name:
         - QA
         - localhost
       operator: and
+    version:
+      operator: semver-eq
+      semver: '231123231'
 value:
   - option: med
     percentage: 33
