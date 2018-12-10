@@ -14,7 +14,7 @@ labels:
   - AB
 platforms:
   - name: Browser
-    value: []
+    value: high
 conditions:
   - value: high
     dependency:
