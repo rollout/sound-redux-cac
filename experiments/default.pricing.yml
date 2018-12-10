@@ -3,6 +3,7 @@
 flag: default.pricing
 type: experiment
 name: pricing
+enabled: false
 stickinessProperty: email
 description: 'This is a description '
 availableValues:
