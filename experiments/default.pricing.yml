@@ -1,5 +1,6 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5b7195af03a52619ba689abc
+version: 1.0.0
 flag: default.pricing
 type: experiment
 name: pricing
