@@ -1,36 +1,36 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5b7195af03a52619ba689abc
 version: 1.0.0
-flag: default.pricing
 type: experiment
 name: pricing
 enabled: false
-stickinessProperty: email
 description: 'This is a description '
+labels:
+  - Gradual Rollout
+  - AB
+flag: default.pricing
 availableValues:
   - med
   - high
   - free
-labels:
-  - Gradual Rollout
-  - AB
+stickinessProperty: email
 platforms:
   - name: Browser
     value: high
 conditions:
-  - value: high
-    dependency:
+  - dependency:
       flag: default.shuffle
       value: 'true'
-  - value: med
-    group:
+    value: high
+  - group:
+      operator: and
       name:
         - QA
         - localhost
-      operator: and
+    value: med
 value:
-  - option: med
-    percentage: 33
+  - percentage: 33
+    option: med
   - option: free
     percentage: 34
   - option: high
