@@ -12,6 +12,9 @@ availableValues:
 labels:
   - Gradual Rollout
   - AB
+platforms:
+  - name: Browser
+    value: []
 conditions:
   - value: high
     dependency:
