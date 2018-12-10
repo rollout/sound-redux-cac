@@ -12,6 +12,17 @@ availableValues:
 labels:
   - Gradual Rollout
   - AB
+conditions:
+  - value: high
+    dependency:
+      flag: default.shuffle
+      value: 'true'
+  - value: med
+    group:
+      name:
+        - QA
+        - localhost
+      operator: and
 value:
   - option: med
     percentage: 33
