@@ -4,7 +4,7 @@ flag: default.pricing
 type: experiment
 name: pricing
 stickinessProperty: email
-description: 'This i '
+description: This is a de
 availableValues:
   - med
   - high
