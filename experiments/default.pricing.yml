@@ -1,36 +1,41 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5b7195af03a52619ba689abc
-version: 1.0.0
+flag: default.pricing
 type: experiment
 name: pricing
-enabled: false
+stickinessProperty: email
 description: 'This is a description '
-labels:
-  - Gradual Rollout
-  - AB
-flag: default.pricing
 availableValues:
   - med
   - high
   - free
-stickinessProperty: email
+labels:
+  - Gradual Rollout
+  - AB
 platforms:
   - name: Browser
     value: high
+    conditions:
+      - value: med
+        group:
+          name: QA
+        version:
+          operator: semver-gte
+          semver: '2121'
 conditions:
-  - dependency:
+  - value: high
+    dependency:
       flag: default.shuffle
       value: 'true'
-    value: high
-  - group:
-      operator: and
+  - value: med
+    group:
       name:
         - QA
         - localhost
-    value: med
+      operator: and
 value:
-  - percentage: 33
-    option: med
+  - option: med
+    percentage: 33
   - option: free
     percentage: 34
   - option: high
