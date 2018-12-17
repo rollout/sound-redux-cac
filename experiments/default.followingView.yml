@@ -5,9 +5,18 @@ type: experiment
 name: following view
 conditions:
   - value: true
+    dependency:
+      flag: default.shuffle
+      value: 'true'
+  - value: true
     group:
       name:
         - Internal emp
         - Beta Users
         - Dev Team
+  - value:
+      - option: true
+        percentage: 10
+    group:
+      name: DJ
 value: false
