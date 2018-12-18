@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c1971382dd3e7712b2b737f
+flag: default.followingViewForVim
+type: experiment
+name: following view for vim
+value: false
