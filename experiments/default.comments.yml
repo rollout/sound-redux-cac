@@ -3,5 +3,5 @@
 flag: default.comments
 type: experiment
 name: comments
-description: comments section on the artist
+description: 'comments section on the artist '
 value: true
