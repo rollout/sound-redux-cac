@@ -3,5 +3,5 @@
 flag: default.comments
 type: experiment
 name: comments
-description: 'comments '
+description: comments s
 value: true
