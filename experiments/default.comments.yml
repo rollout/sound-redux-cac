@@ -3,5 +3,5 @@
 flag: default.comments
 type: experiment
 name: comments
-description: 'comments section '
+description: comments section on th
 value: true
