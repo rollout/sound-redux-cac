@@ -5,8 +5,17 @@ type: experiment
 name: following view
 conditions:
   - value: true
+    dependency:
+      flag: default.playlist
+      value: 'true'
+  - value: true
     group:
       name:
         - Beta Users
         - Internal emp
+  - value:
+      - option: true
+        percentage: 10
+    group:
+      name: DJ
 value: false
