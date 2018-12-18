@@ -3,7 +3,7 @@
 flag: default.startFollowingWord
 type: experiment
 name: start following word
-description: Multiv
+description: Multi
 availableValues:
   - Watch Him
   - Start Following
