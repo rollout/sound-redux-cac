@@ -3,7 +3,7 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-description: 'shuffle '
+description: shuffle fea
 platforms:
   - name: NodeJS
     value: true
