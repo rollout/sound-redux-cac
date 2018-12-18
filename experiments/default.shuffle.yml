@@ -3,7 +3,7 @@
 flag: default.shuffle
 type: experiment
 name: shuffle
-description: shuffle feature on the pla
+description: shuffle feature on the player
 platforms:
   - name: NodeJS
     value: true
