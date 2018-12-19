@@ -3,9 +3,6 @@
 flag: default.followingView
 type: experiment
 name: following view
-platforms:
-  - name: Android
-    value: false
 value:
   - option: true
     percentage: 60
