@@ -9,4 +9,9 @@ conditions:
       name:
         - Internal emp
         - QA
+  - value:
+      - option: true
+        percentage: 10
+    group:
+      name: DJ
 value: false
