@@ -6,7 +6,7 @@ name: following view
 conditions:
   - value:
       - option: true
-        percentage: 50
+        percentage: 10
     group:
       name: DJ
 value: false
