@@ -3,6 +3,11 @@
 flag: default.followingView
 type: experiment
 name: following view
+platforms:
+  - name: Browser
+    value: false
+  - name: NodeJS
+    value: false
 value:
   - option: true
     percentage: 80
