@@ -7,7 +7,7 @@ platforms:
   - name: Browser
     value: false
   - name: NodeJS
-    value: false
+    value: true
 value:
   - option: true
     percentage: 80
