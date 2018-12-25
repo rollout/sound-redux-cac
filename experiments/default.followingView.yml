@@ -3,19 +3,4 @@
 flag: default.followingView
 type: experiment
 name: following view
-conditions:
-  - value: true
-    group:
-      name:
-        - QA
-        - Internal emp
-    version:
-      operator: semver-gte
-      semver: 1.4.0
-  - value:
-      - option: true
-        percentage: 10
-    version:
-      operator: semver-gte
-      semver: 1.5.0
 value: false
