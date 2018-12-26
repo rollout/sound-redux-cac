@@ -1,7 +1,0 @@
-type: target-group
-name: DJ
-conditions:
-  - operator: gte
-    property: playlist_count
-    operand: 100
-description: Users with a lot of playlists
