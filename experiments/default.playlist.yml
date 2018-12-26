@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5cafb21607815a3094afd
+type: experiment
+name: playlist
+labels: Gradual Rollout
+flag: default.playlist
+platforms:
+  - name: Browser
+    value: false
+value: false
