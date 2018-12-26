@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5be5fab7036eca45e8d654df
+type: experiment
+name: colors variant
+enabled: false
+flag: default.colorsVariant
+availableValues:
+  - red
+  - green
+  - blue
+value: []
