@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5bfcf21607815a309482d
+type: experiment
+name: shuffle
+flag: default.shuffle
+value: false
