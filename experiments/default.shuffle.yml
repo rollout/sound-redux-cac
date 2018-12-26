@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd70c7eb8bff236d0f6cf54
+type: experiment
+name: shuffle
+description: shuffle feature on the player
+flag: default.shuffle
+platforms:
+  - name: NodeJS
+    value: true
+value: true
