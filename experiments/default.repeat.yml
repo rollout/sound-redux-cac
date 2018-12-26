@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5cafb21607815a3094b15
+type: experiment
+name: repeat
+description: Repeat song button
+labels: stable_state_experiments
+flag: default.repeat
+platforms:
+  - name: Browser
+    value: false
+value: false
