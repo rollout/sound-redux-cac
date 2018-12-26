@@ -1,0 +1,21 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5bd5bfcf21607815a30947e9
+type: experiment
+name: following view
+flag: default.followingView
+conditions:
+  - version:
+      operator: semver-gte
+      semver: 1.2.3
+    group:
+      name:
+        - QA
+        - Beta Users
+    value: true
+  - version:
+      operator: semver-gte
+      semver: 1.3.0
+    value:
+      - percentage: 10
+        option: true
+value: false
