@@ -3,4 +3,13 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - version:
+      operator: semver-gte
+      semver: '1.2'
+    group:
+      name:
+        - Internal emp
+        - Beta Users
+    value: true
 value: false
