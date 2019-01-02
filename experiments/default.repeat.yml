@@ -6,5 +6,5 @@ description: Repeat song button
 labels: stable_state_experiments
 flag: default.repeat
 value:
-  - percentage: 50
+  - percentage: 80
     option: true
