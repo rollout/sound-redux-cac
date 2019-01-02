@@ -3,4 +3,8 @@
 type: experiment
 name: row plays
 flag: default.row_plays
-value: false
+conditions:
+  - version:
+      operator: semver-lt
+      semver: '4.5'
+value: true
