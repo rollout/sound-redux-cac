@@ -7,4 +7,6 @@ flag: default.shuffle
 platforms:
   - name: NodeJS
     value: true
-value: true
+value:
+  - percentage: 50
+    option: true
