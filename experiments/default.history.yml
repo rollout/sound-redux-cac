@@ -3,6 +3,4 @@
 type: experiment
 name: history
 flag: default.history
-value:
-  - percentage: 10
-    option: true
+value: false
