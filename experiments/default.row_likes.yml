@@ -3,6 +3,15 @@
 type: experiment
 name: row likes
 description: For version a112
-enabled: false
 flag: default.row_likes
+conditions:
+  - group:
+      operator: and
+      name: QA
+    value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
