@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c2cd836d2b77a49cf307378
+type: experiment
+name: history
+flag: default.history
+value: false
