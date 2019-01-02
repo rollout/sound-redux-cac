@@ -4,9 +4,6 @@ type: experiment
 name: shuffle
 description: shuffle feature on the player
 flag: default.shuffle
-platforms:
-  - name: NodeJS
-    value: true
 value:
   - percentage: 50
     option: true
