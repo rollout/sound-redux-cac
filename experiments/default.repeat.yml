@@ -5,4 +5,6 @@ name: repeat
 description: Repeat song button
 labels: stable_state_experiments
 flag: default.repeat
-value: false
+value:
+  - percentage: 50
+    option: true
