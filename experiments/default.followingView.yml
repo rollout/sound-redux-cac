@@ -5,6 +5,9 @@ name: following view
 enabled: false
 stickinessProperty: tenant
 flag: default.followingView
+platforms:
+  - name: Android
+    value: false
 conditions:
   - dependency:
       flag: default.colorsVariant
