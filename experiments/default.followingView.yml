@@ -4,4 +4,6 @@ type: experiment
 name: following view
 stickinessProperty: tenant
 flag: default.followingView
-value: false
+value:
+  - percentage: 50
+    option: true
