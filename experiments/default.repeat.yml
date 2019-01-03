@@ -5,7 +5,10 @@ name: repeat
 description: Repeat song button
 labels: stable_state_experiments
 flag: default.repeat
-platforms:
-  - name: Browser
-    value: false
-value: false
+conditions:
+  - group:
+      name: QA
+    value: true
+value:
+  - percentage: 50
+    option: true
