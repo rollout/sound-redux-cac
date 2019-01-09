@@ -5,8 +5,8 @@ name: following view
 flag: default.followingView
 conditions:
   - dependency:
-      flag: default.colorsVariant
-      value: green
+      flag: default.comments
+      value: 'true'
     value: true
   - group:
       name:
