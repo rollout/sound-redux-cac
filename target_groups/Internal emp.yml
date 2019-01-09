@@ -1,5 +1,5 @@
 type: target-group
-name: Internal emp 2
+name: Internal emp 3
 conditions:
   - operator: regex
     property: email
