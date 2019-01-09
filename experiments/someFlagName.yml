@@ -3,4 +3,7 @@
 type: experiment
 name: some flag name
 flag: someFlagName
+conditions:
+  - group:
+      name: Internal emp 3
 value: false
