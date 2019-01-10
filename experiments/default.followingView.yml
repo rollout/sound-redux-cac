@@ -6,5 +6,7 @@ flag: default.followingView
 conditions:
   - group:
       name: Internal emp
-    value: true
+    value:
+      - percentage: 40
+        option: true
 value: false
