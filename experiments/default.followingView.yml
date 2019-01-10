@@ -5,8 +5,8 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
+      name: Internal emp
+    value:
+      - percentage: 30
+        option: true
 value: false
