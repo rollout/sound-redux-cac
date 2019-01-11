@@ -8,5 +8,7 @@ conditions:
       name:
         - Internal emp
         - Beta Users
-    value: true
+    value:
+      - percentage: 30
+        option: true
 value: false
