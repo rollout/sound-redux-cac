@@ -8,9 +8,9 @@ availableValues:
   - green
   - blue
 value:
-  - percentage: 33
+  - percentage: 80
     option: red
-  - percentage: 33
+  - percentage: 10
     option: green
-  - percentage: 34
+  - percentage: 10
     option: blue
