@@ -12,6 +12,6 @@ conditions:
   - group:
       name: Internal emp
     value:
-      - percentage: 20
+      - percentage: 70
         option: true
 value: false
