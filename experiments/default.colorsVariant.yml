@@ -7,4 +7,10 @@ availableValues:
   - red
   - green
   - blue
-value: green
+value:
+  - percentage: 33
+    option: red
+  - percentage: 33
+    option: green
+  - percentage: 34
+    option: blue
