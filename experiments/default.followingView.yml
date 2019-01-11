@@ -4,9 +4,13 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
+  - dependency:
+      flag: default.history
+      value: 'true'
     value: true
+  - group:
+      name: Internal emp
+    value:
+      - percentage: 20
+        option: true
 value: false
