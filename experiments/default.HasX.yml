@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c3912235e81da15cae3a9e3
+type: experiment
+name: has x
+flag: default.HasX
+value: false
