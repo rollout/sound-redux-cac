@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c3dc4815e81da15cae3b2f7
+type: experiment
+name: following view
+flag: default.followingView
+value: false
