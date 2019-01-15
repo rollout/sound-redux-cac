@@ -5,5 +5,5 @@ name: following view
 flag: default.followingView
 platforms:
   - name: Java
-    value: false
+    value: true
 value: false
