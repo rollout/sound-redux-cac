@@ -2,17 +2,11 @@
 # URL: https://app.rollout.io/ex/5c401e7f5e81da15cae3b80f
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 conditions:
   - group:
       name: DJ
     value:
-      - percentage: 20
+      - percentage: 30
         option: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
 value: false
