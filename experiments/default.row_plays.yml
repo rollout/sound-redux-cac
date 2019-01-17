@@ -5,7 +5,7 @@ name: row plays
 flag: default.row_plays
 platforms:
   - name: Browser
-    value: false
+    value: true
   - name: Android
     value: false
 conditions:
