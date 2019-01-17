@@ -7,6 +7,11 @@ platforms:
   - name: Browser
     value: false
   - name: Android
+    conditions:
+      - version:
+          operator: semver-gte
+          semver: '1.3'
+        value: true
     value: false
 value:
   - percentage: 20
