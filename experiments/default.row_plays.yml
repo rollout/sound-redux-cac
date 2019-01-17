@@ -5,7 +5,9 @@ name: row plays
 flag: default.row_plays
 platforms:
   - name: Browser
-    value: true
+    value:
+      - percentage: 50
+        option: true
   - name: Android
     conditions:
       - version:
