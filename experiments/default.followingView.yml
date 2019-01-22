@@ -3,4 +3,9 @@
 type: experiment
 name: following view
 flag: default.followingView
+platforms:
+  - name: NodeJS
+    value: false
+  - name: Android
+    value: false
 value: true
