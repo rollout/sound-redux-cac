@@ -7,5 +7,16 @@ platforms:
   - name: NodeJS
     value: false
   - name: Android
-    value: false
+    conditions:
+      - version:
+          operator: semver-lte
+          semver: 1.2.8
+      - group:
+          name:
+            - QA
+            - Internal emp
+        value: true
+    value:
+      - percentage: 50
+        option: true
 value: true
