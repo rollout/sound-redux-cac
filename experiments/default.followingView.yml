@@ -15,7 +15,9 @@ conditions:
   - version:
       operator: semver-gte
       semver: 1.2.3
+    group:
+      name: DJ
     value:
-      - percentage: 50
+      - percentage: 10
         option: true
 value: false
