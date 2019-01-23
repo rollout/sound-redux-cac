@@ -3,7 +3,6 @@
 type: experiment
 name: row likes
 description: For version a112
-enabled: false
 flag: default.row_likes
 conditions:
   - group:
