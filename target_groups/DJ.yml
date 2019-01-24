@@ -1,6 +1,6 @@
 type: target-group
 name: DJ
-description: Users with a lot of playlists
+description: Users who likes me
 operator: or
 conditions:
   - operator: gte
