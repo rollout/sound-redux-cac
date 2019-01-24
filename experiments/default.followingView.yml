@@ -6,6 +6,5 @@ flag: default.followingView
 conditions:
   - group:
       name: DJ
-value:
-  - percentage: 80
-    option: true
+    value: true
+value: false
