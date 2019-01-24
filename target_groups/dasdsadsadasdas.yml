@@ -1,0 +1,7 @@
+type: target-group
+name: dasdsadsadasdas
+description: dasdsadadasdsad
+conditions:
+  - operator: regex
+    property: brand
+    operand: asasass
