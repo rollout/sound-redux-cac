@@ -9,4 +9,9 @@ conditions:
         - Internal emp
         - Beta Users
     value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
