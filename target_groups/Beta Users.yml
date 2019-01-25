@@ -1,5 +1,6 @@
 type: target-group
 name: Beta Users
+operator: or
 conditions:
   - operator: in-array
     property: email
@@ -7,3 +8,4 @@ conditions:
       - nick@rollout.io
       - alex@rollout.io
       - paul@rollout.io
+      - sasasa@aol.com
