@@ -5,5 +5,5 @@ name: following view
 labels: AB
 flag: default.followingView
 value:
-  - percentage: 50
+  - percentage: 70
     option: true
