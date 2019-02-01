@@ -19,6 +19,13 @@ conditions:
   - group:
       name: Beta Users
     value:
-      - percentage: 30
+      - from: 2019-02-01T16:26:26.887Z
+        percentage: 0
+        option: true
+      - from: 2019-02-05T00:00:00.000Z
+        percentage: 40
+        option: true
+      - from: 2019-02-13T00:00:00.000Z
+        percentage: 60
         option: true
 value: false
