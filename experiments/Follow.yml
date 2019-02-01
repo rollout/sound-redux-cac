@@ -2,7 +2,6 @@
 # URL: https://app.rollout.io/ex/5c548b9d5cd82d07da60e5aa
 type: experiment
 name: follow
-enabled: false
 flag: Follow
 conditions:
   - group:
