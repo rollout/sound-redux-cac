@@ -3,4 +3,10 @@
 type: experiment
 name: follow
 flag: Follow
+conditions:
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+    value: true
 value: false
