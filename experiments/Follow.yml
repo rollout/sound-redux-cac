@@ -4,5 +4,5 @@ type: experiment
 name: follow
 flag: Follow
 value:
-  - percentage: 10
+  - percentage: 70
     option: true
