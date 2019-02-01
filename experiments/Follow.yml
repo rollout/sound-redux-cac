@@ -1,8 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c548b9d5cd82d07da60e5aa
-type: experiment
-name: follow
-flag: Follow
-value:
-  - percentage: 70
-    option: true
