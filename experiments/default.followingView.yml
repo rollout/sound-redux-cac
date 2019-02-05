@@ -9,5 +9,5 @@ platforms:
   - name: Android
     value: false
 value:
-  - percentage: 10
+  - percentage: 70
     option: true
