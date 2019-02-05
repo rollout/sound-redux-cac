@@ -1,8 +1,26 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c587ae55cd82d07da6127e6
+# URL: https://app.rollout.io/ex/5c58abd85cd82d07da613184
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
+    value:
+      - from: 2019-02-05T08:16:01.890Z
+        percentage: 0
+        option: true
+      - from: 2019-02-13T00:00:00.000Z
+        percentage: 60
+        option: true
+      - from: 2019-02-20T00:00:00.000Z
+        percentage: 100
+        option: true
+  - group:
+      name:
+        - DJ
+        - myDomian
 value:
   - percentage: 80
     option: true
