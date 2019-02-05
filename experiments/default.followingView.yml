@@ -2,8 +2,12 @@
 # URL: https://app.rollout.io/ex/5c59cbe05cd82d07da615400
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
+platforms:
+  - name: NodeJS
+    value: false
+  - name: Android
+    value: false
 conditions:
   - dependency:
       flag: default.colorsVariant
