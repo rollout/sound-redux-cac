@@ -5,6 +5,11 @@ name: following view
 flag: default.followingView
 platforms:
   - name: Browser
+    conditions:
+      - version:
+          operator: semver-gte
+          semver: '6.9'
+        value: true
     value: false
 conditions:
   - dependency:
