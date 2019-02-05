@@ -8,19 +8,6 @@ platforms:
     value: false
   - name: Android
     value: false
-conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
-  - group:
-      name: DJ
-    value:
-      - percentage: 10
-        option: true
-value: false
+value:
+  - percentage: 10
+    option: true
