@@ -4,14 +4,19 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      name: DJ
-    value:
-      - percentage: 40
-        option: true
+  - dependency:
+      flag: default.colorsVariant
+      value: green
+    value: true
+  - {}
   - group:
       name:
         - Internal emp
         - Beta Users
     value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 40
+        option: true
 value: false
