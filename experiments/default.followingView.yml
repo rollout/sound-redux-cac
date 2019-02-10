@@ -1,12 +1,13 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c5de1a5af23cf07f9bc5df1
+# URL: https://app.rollout.io/ex/5c59cbe05cd82d07da615400
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name: DJ
-    value:
-      - percentage: 60
-        option: true
-value: false
+platforms:
+  - name: NodeJS
+    value: false
+  - name: Android
+    value: false
+value:
+  - percentage: 70
+    option: true
