@@ -2,21 +2,7 @@
 # URL: https://app.rollout.io/ex/5c62f153af23cf07f9bce671
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
-conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
-  - group:
-      name: DJ
-    value:
-      - percentage: 40
-        option: true
-value: false
+value:
+  - percentage: 30
+    option: true
