@@ -8,4 +8,16 @@ availableValues:
   - Watch Him
   - Start Following
   - Follow
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - dsdsadsdsa
+        - sdadsa
+        - ds
+        - dsadsadas.das
+        - sdadsads
+        - sda.sad.dsadsa.sd.a
+    value: Watch Him
 value: Start Following
