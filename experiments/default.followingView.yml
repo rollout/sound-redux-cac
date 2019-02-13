@@ -5,15 +5,6 @@ name: following view
 enabled: false
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
   - group:
       name: DJ
     value:
