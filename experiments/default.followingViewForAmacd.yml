@@ -3,4 +3,4 @@
 type: experiment
 name: following view for amacd
 flag: default.followingViewForAmacd
-value: true
+value: false
