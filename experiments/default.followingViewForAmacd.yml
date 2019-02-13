@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c64393450f0a9034e5d1f83
-type: experiment
-name: following view for amacd
-flag: default.followingViewForAmacd
-value: false
