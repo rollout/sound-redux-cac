@@ -9,15 +9,10 @@ availableValues:
   - Start Following
   - Follow
 conditions:
-  - property:
-      name: country
-      operator: in-array
-      operand:
-        - dsdsadsdsa
-        - sdadsa
-        - ds
-        - dsadsadas.das
-        - sdadsads
-        - sda.sad.dsadsa.sd.a
+  - group:
+      name: DJ
     value: Watch Him
-value: Start Following
+  - group:
+      name: Beta Users
+    value: Start Following
+value: Follow
