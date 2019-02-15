@@ -8,6 +8,12 @@ conditions:
       flag: default.colorsVariant
       value: blue
     value: true
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+    value: true
   - group:
       name:
         - Internal emp
@@ -15,10 +21,4 @@ conditions:
     value:
       - percentage: 10
         option: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-    value: true
 value: false
