@@ -3,4 +3,17 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+    value: true
+  - property:
+      name: playlist_count
+      operator: lt
+      operand: 100
+    value:
+      - percentage: 10
+        option: true
 value: false
