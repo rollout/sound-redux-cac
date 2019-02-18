@@ -1,7 +1,0 @@
-type: target-group
-name: myDomian
-conditions:
-  - operator: in-array
-    property: url
-    operand:
-      - google.com
