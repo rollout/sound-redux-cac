@@ -6,12 +6,8 @@ enabled: false
 flag: default.followingView
 conditions:
   - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value: true
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
+      name: Beta Users
+    value:
+      - percentage: 30
+        option: true
 value: false
