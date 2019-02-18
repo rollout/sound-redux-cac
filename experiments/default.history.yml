@@ -4,8 +4,7 @@ type: experiment
 name: history
 flag: default.history
 conditions:
-  - dependency:
-      flag: default.startFollowingWord
-      value: Start Following
+  - group:
+      name: Paying user
     value: true
 value: false
