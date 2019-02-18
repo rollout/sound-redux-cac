@@ -3,4 +3,9 @@
 type: experiment
 name: history
 flag: default.history
+conditions:
+  - dependency:
+      flag: default.startFollowingWord
+      value: Start Following
+    value: true
 value: false
