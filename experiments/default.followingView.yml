@@ -5,21 +5,11 @@ name: following view
 enabled: false
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - property:
-      name: soundcloud_id
-      operator: in-array
-      operand:
-        - aaaa
-        - bbbb
-        - aaaac
-    value: true
   - group:
       name:
         - Internal emp
         - Beta Users
-    value: true
+    value:
+      - percentage: 10
+        option: true
 value: false
