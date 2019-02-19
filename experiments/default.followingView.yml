@@ -12,4 +12,9 @@ conditions:
         - bbbb
         - aaaac
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+    value: true
 value: false
