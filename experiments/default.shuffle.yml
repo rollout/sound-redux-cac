@@ -4,6 +4,10 @@ type: experiment
 name: shuffle
 description: shuffle feature on the player
 flag: default.shuffle
+conditions:
+  - version:
+      operator: semver-gte
+      semver: '12'
 value:
   - percentage: 50
     option: true
