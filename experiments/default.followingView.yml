@@ -8,13 +8,7 @@ conditions:
       operator: semver-gte
       semver: 1.2.3
     group:
-      name: QA
-    value: true
-  - group:
       name:
-        - Internal emp
-        - Bad Versions
-    value:
-      - percentage: 50
-        option: true
+        - DJ
+        - QA
 value: false
