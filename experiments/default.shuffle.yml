@@ -7,7 +7,8 @@ flag: default.shuffle
 conditions:
   - version:
       operator: semver-gte
-      semver: '12'
-value:
-  - percentage: 50
-    option: true
+      semver: 1.2.3
+    value:
+      - percentage: 50
+        option: true
+value: false
