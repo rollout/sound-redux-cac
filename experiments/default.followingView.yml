@@ -4,15 +4,15 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      name:
-        - Internal emp
-        - DJ
-    value: true
   - property:
       name: email
       operator: in-array
       operand:
         - alex@rollout.io
+    value: true
+  - group:
+      name:
+        - Internal emp
+        - DJ
     value: true
 value: false
