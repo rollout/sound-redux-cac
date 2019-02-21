@@ -4,11 +4,9 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
+  - dependency:
+      flag: default.colorsVariant
+      value: red
     value: true
   - group:
       name:
