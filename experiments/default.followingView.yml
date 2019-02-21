@@ -5,4 +5,5 @@ name: following view
 flag: default.followingView
 value:
   - percentage: 52 
-    option: false
+    option: true
+
