@@ -9,7 +9,7 @@ conditions:
         - DJ
         - Beta Users
     value:
-      - percentage: 10
+      - percentage: 65
         option: true
   - dependency:
       flag: default.colorsVariant
