@@ -5,8 +5,9 @@ name: following view
 enabled: false
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: red
-    value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
