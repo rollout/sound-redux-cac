@@ -1,18 +1,15 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5c70574181b004586fdffd61
 type: experiment
-name: following view
 flag: default.followingView
 conditions:
-  - group:
+  - version:
+      operator: semver-gte
+      semver: null
+    group:
       name:
-        - DJ
-        - Beta Users
-    value:
-      - percentage: 65
-        option: true
-  - dependency:
-      flag: default.colorsVariant
-      value: blue
+        - Development team
+        - QA
+        - Internal employees
     value: true
 value: false
