@@ -7,12 +7,9 @@ platforms:
   - name: NodeJS
     value: false
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - ronit@rollout.io
+  - dependency:
+      flag: default.colorsVariant
+      value: green
     value: true
   - group:
       name:
