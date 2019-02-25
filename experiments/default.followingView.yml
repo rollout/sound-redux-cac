@@ -2,16 +2,11 @@
 # URL: https://app.rollout.io/ex/5c745ad781b004586fe06fb3
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 platforms:
   - name: NodeJS
     value: false
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
   - group:
       name:
         - Beta Users
