@@ -1,16 +1,11 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5c75334b7f98c012e8ddac0c
 type: experiment
-labels: internal
+labels: open
 flag: default.followingView
 conditions:
   - version:
       operator: semver-gte
       semver: null
-    group:
-      name:
-        - Development team
-        - QA
-        - Internal employees
     value: true
 value: false
