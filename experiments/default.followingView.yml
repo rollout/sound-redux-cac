@@ -6,9 +6,10 @@ flag: default.followingView
 conditions:
   - version:
       operator: semver-gte
-      semver: '1223'
+      semver: null
     group:
       name:
+        - Development team
         - QA
         - Internal employees
     value: true
