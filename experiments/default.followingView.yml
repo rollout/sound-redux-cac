@@ -9,6 +9,6 @@ conditions:
         - DJ
         - Beta Users
     value:
-      - percentage: 20
+      - percentage: 55
         option: true
 value: false
