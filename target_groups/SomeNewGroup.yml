@@ -1,11 +1,2 @@
 type: target-group
 name: SomeNewGroup
-conditions:
-  - operator: is-true
-    property: primary_email_confirmed
-  - operator: in-array
-    property: plan
-    operand:
-      - aaaa
-      - bbbb
-      - cccc
