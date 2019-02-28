@@ -1,4 +1,7 @@
 type: target-group
-name: SomeNewGroup2
+name: SomeNewGroup
 conditions:
+ - property: email
+   operator: regex
+   operand: assa
  
