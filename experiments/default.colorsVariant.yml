@@ -1,0 +1,16 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c7860100de22c766f5fc3c0
+type: experiment
+name: colors variant
+flag: default.colorsVariant
+availableValues:
+  - red
+  - green
+  - blue
+value:
+  - percentage: 80
+    option: red
+  - percentage: 10
+    option: green
+  - percentage: 10
+    option: blue
