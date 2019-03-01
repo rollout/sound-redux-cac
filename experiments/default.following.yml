@@ -3,4 +3,9 @@
 type: experiment
 name: following
 flag: default.following
+conditions:
+  - dependency:
+      flag: default.history
+      value: 'true'
+    value: true
 value: false
