@@ -11,11 +11,8 @@ conditions:
     value:
       - percentage: 10
         option: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - ronit@rollout.io
+  - dependency:
+      flag: default.colorsVariant
+      value: blue
     value: true
 value: false
