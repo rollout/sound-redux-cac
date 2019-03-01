@@ -11,8 +11,4 @@ conditions:
     value:
       - percentage: 10
         option: true
-  - dependency:
-      flag: default.colorsVariant
-      value: blue
-    value: true
 value: false
