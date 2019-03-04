@@ -3,4 +3,4 @@ name: Internal emp
 conditions:
   - operator: regex
     property: email
-    operand: .*@rollout\.io$
+    operand: '@rollout\.io$'
