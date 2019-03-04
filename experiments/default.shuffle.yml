@@ -2,5 +2,6 @@
 # URL: https://app.rollout.io/ex/5bd5bfcf21607815a309482d
 type: experiment
 name: shuffle
+labels: stable_state_experiments
 flag: default.shuffle
 value: false
