@@ -3,6 +3,4 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - value: true
 value: false
