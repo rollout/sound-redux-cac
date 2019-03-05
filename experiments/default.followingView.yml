@@ -8,6 +8,7 @@ conditions:
       name: email
       operator: in-array
       operand:
+        - dylan@rollout.io
         - bob@rollout.io
     value: true
 value: false
