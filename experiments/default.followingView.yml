@@ -10,4 +10,10 @@ conditions:
       operand:
         - eyal@rollout.io
     value: true
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - eyal@rollout.io
+    value: true
 value: false
