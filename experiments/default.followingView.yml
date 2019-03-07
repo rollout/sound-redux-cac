@@ -3,6 +3,10 @@
 type: experiment
 name: following view
 flag: default.followingView
-value:
-  - percentage: 30
-    option: true
+conditions:
+  - group:
+      name: Bad Versions
+    value:
+      - percentage: 30
+        option: true
+value: false
