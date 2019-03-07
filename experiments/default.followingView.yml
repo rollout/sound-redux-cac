@@ -11,4 +11,10 @@ conditions:
         - alex@rollou.io
         - ronit@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+        - QA
+    value: true
 value: false
