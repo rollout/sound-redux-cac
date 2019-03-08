@@ -4,13 +4,6 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      name:
-        - Internal emp
-        - QA
-    value:
-      - percentage: 10
-        option: true
   - property:
       name: email
       operator: in-array
@@ -18,4 +11,11 @@ conditions:
         - alex@rollout.io
         - ronit@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - QA
+    value:
+      - percentage: 10
+        option: true
 value: false
