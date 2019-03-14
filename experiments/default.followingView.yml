@@ -11,4 +11,12 @@ conditions:
         - alex@rollout.io
         - ronit@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+        - DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
