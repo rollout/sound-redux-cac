@@ -7,8 +7,9 @@ platforms:
   - name: Android
     value: false
 conditions:
-  - dependency:
-      flag: default.history
-      value: 'true'
-    value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
