@@ -8,21 +8,7 @@ platforms:
     value: false
 conditions:
   - dependency:
-      flag: default.colorsVariant
-      value: green
+      flag: default.history
+      value: 'true'
     value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - elad@rollout.io
-    value: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value:
-      - percentage: 10
-        option: true
 value: false
