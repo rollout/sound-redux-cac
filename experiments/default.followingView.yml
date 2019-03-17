@@ -7,4 +7,13 @@ conditions:
   - group:
       name: qa team
     value: true
-value: false
+value:
+  - from: 2019-03-17T11:55:48.744Z
+    percentage: 0
+    option: true
+  - from: 2019-03-19T00:00:00.000Z
+    percentage: 5
+    option: true
+  - from: 2019-03-26T00:00:00.000Z
+    percentage: 10
+    option: true
