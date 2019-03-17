@@ -1,6 +1,6 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5c8ac8dcf99d28655b62e370
 type: experiment
-name: some new feature
+name: some new features
 flag: SomeNewFeature
 value: false
