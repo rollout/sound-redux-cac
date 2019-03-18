@@ -3,10 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name:
-        - QA
-        - Internal emp
-    value: true
-value: true
+value:
+  - percentage: 30
+    option: true
