@@ -3,6 +3,8 @@
 type: experiment
 name: comments
 description: comments section on the artist page
+labels:
+  - AB
+  - archived
 flag: default.comments
-labels: AB
 value: true
