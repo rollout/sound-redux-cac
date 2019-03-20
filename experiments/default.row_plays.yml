@@ -17,6 +17,8 @@ platforms:
     value: false
 conditions:
   - group:
-      name: Beta Users
+      name:
+        - Beta Users
+        - QA
     value: true
 value: false
