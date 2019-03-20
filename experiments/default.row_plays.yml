@@ -15,10 +15,4 @@ platforms:
           semver: '1.3'
         value: true
     value: false
-conditions:
-  - group:
-      name:
-        - Beta Users
-        - QA
-    value: true
 value: false
