@@ -1,0 +1,26 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c954b82fe2c2e0979c85a99
+type: experiment
+name: following view
+enabled: false
+flag: default.followingView
+conditions:
+  - dependency:
+      flag: default.colorsVariant
+      value: green
+    value: true
+  - group:
+      name:
+        - Internal emp
+        - DJ
+    value:
+      - percentage: 10
+        option: true
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+        - ronit@rollout.io
+    value: true
+value: false
