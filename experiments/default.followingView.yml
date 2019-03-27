@@ -3,4 +3,16 @@
 type: experiment
 name: following view
 flag: default.followingView
-value: true
+conditions:
+  - group:
+      name:
+        - QA
+        - Bad Versions
+    value: true
+  - version:
+      operator: semver-gte
+      semver: 1.2.3
+    value:
+      - percentage: 10
+        option: true
+value: false
