@@ -5,9 +5,7 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name:
-        - QA
-        - Bad Versions
+      name: QA
     value: true
   - version:
       operator: semver-gte
