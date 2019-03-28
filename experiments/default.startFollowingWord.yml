@@ -8,10 +8,11 @@ availableValues:
   - Watch Him
   - Start Following
   - Follow
-value:
-  - percentage: 33
-    option: Watch Him
-  - percentage: 33
-    option: Start Following
-  - percentage: 34
-    option: Follow
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - US
+    value: Watch Him
+value: Follow
