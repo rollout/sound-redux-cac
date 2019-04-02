@@ -3,4 +3,18 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - version:
+      operator: semver-gte
+      semver: 1.2.0
+    group:
+      name:
+        - Internal emp
+        - Beta Users
+    value: true
+  - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
