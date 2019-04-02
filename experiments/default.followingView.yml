@@ -12,7 +12,10 @@ conditions:
         - Internal emp
         - Beta Users
     value: true
-  - group:
+  - version:
+      operator: semver-gte
+      semver: 1.2.0
+    group:
       name: DJ
     value:
       - percentage: 10
