@@ -8,17 +8,6 @@ platforms:
   - name: Java
     value: false
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - ronit@rollout.io
-    value: true
   - group:
       name:
         - Internal emp
