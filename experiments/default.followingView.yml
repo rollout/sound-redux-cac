@@ -6,4 +6,12 @@ flag: default.followingView
 platforms:
   - name: Java
     value: false
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+        - ronit@rollout.io
+    value: true
 value: false
