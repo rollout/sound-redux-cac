@@ -8,18 +8,4 @@ conditions:
       flag: default.colorsVariant
       value: green
     value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - ronit@rolloiut.io
-    value: true
-  - group:
-      name:
-        - Beta Users
-        - Internal emp
-    value:
-      - percentage: 10
-        option: true
 value: false
