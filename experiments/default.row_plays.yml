@@ -15,4 +15,12 @@ platforms:
           semver: '1.3'
         value: true
     value: false
+conditions:
+  - group:
+      name:
+        - Beta Users
+        - Internal emp
+    value:
+      - percentage: 10
+        option: true
 value: false
