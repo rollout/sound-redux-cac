@@ -8,13 +8,6 @@ platforms:
     value:
       - percentage: 50
         option: true
-  - name: Android
-    conditions:
-      - version:
-          operator: semver-gte
-          semver: '1.3'
-        value: true
-    value: false
 conditions:
   - group:
       name:
