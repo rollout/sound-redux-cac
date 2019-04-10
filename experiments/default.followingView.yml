@@ -2,20 +2,8 @@
 # URL: https://app.rollout.io/ex/5cae2ad3fff77f252b898d20
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: blue
-    value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - erez@rollout.io
-    value: true
   - group:
       name:
         - Internal emp
