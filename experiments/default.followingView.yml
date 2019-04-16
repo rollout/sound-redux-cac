@@ -3,13 +3,19 @@
 type: experiment
 name: following view
 flag: default.followingView
-value:
-  - from: 2019-04-16T17:30:42.013Z
-    percentage: 0
-    option: true
-  - from: 2019-04-30T00:00:00.000Z
-    percentage: 10
-    option: true
-  - from: 2019-05-15T00:00:00.000Z
-    percentage: 100
-    option: true
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+        - erez@rollout.io
+    value: true
+  - group:
+      name:
+        - DJ
+        - Internal emp
+    value:
+      - percentage: 10
+        option: true
+value: false
