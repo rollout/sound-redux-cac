@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5cc85388c0d73d454964b219
+type: experiment
+name: vmware poc
+flag: default.vmwarePOC
+value: false
