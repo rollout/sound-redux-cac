@@ -3,4 +3,12 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+        - erez@rollout.io
+    value: true
 value: false
