@@ -11,4 +11,12 @@ conditions:
         - alex@rollout.io
         - erez@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+        - QA
+    value:
+      - percentage: 10
+        option: true
 value: false
