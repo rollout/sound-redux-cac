@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ccaba41c0d73d4549650805
-type: experiment
-name: another flag 14
-flag: default.anotherFlag14
-value: false
