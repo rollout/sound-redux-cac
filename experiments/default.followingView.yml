@@ -4,18 +4,9 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - erez@rollout.io
-    value: true
   - group:
-      name:
-        - DJ
-        - Beta Users
+      name: DJ
     value:
-      - percentage: 10
+      - percentage: 50
         option: true
 value: false
