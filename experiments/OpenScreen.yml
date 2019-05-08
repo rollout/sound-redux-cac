@@ -3,4 +3,10 @@
 type: experiment
 name: open screen
 flag: OpenScreen
+conditions:
+  - group:
+      name: SomeNewGroup
+    value:
+      - percentage: 50
+        option: true
 value: false
