@@ -9,21 +9,8 @@ platforms:
       - percentage: 50
         option: true
 conditions:
-  - dependency:
-      flag: default.colorsVariant
-      value: green
-    value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - erez@rollout.io
-    value: true
   - group:
-      name:
-        - Internal emp
-        - DJ
+      name: DJ
     value:
       - percentage: 10
         option: true
