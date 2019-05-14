@@ -8,12 +8,4 @@ platforms:
     value:
       - percentage: 50
         option: true
-conditions:
-  - group:
-      name:
-        - Beta Users
-        - Internal emp
-    value:
-      - percentage: 65
-      option: true
 value: false
