@@ -9,6 +9,10 @@ platforms:
       - percentage: 50
         option: true
 conditions:
+  - dependency:
+      flag: default.colorsVariant
+      value: green
+    value: true
   - property:
       name: email
       operator: in-array
