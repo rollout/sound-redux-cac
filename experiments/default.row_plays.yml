@@ -8,4 +8,12 @@ platforms:
     value:
       - percentage: 50
         option: true
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - alex@rollout.io
+        - erez@rollout.io
+    value: true
 value: false
