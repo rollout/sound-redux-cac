@@ -3,4 +3,13 @@
 type: experiment
 name: following view
 flag: default.followingView
-value: false
+value:
+  - from: 2019-05-22T19:39:19.550Z
+    percentage: 0
+    option: true
+  - from: 2019-05-31T00:00:00.000Z
+    percentage: 10
+    option: true
+  - from: 2019-06-26T00:00:00.000Z
+    percentage: 100
+    option: true
