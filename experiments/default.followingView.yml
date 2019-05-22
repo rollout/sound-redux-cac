@@ -4,6 +4,10 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
+  - dependency:
+      flag: default.colorsVariant
+      value: green
+    value: true
   - property:
       name: email
       operator: in-array
