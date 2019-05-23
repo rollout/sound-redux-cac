@@ -11,4 +11,11 @@ conditions:
         - alex@rollout.io
         - eyal@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - QA
+    value:
+      - percentage: 10
+        option: true
 value: false
