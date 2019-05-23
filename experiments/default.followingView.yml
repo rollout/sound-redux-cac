@@ -5,7 +5,9 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name: Internal emp
+      name:
+        - Internal emp
+        - QA
     value:
       - percentage: 55
         option: true
