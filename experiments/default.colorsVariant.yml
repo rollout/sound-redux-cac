@@ -7,6 +7,12 @@ availableValues:
   - red
   - green
   - blue
+conditions:
+  - dependency:
+      flag: default.history
+      value: 'true'
+    value: []
+  - value: []
 value:
   - percentage: 30
     option: red
