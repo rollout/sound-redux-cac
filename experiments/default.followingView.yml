@@ -9,6 +9,6 @@ conditions:
         - Internal emp
         - QA
     value:
-      - percentage: 56
+      - percentage: 55
         option: true
 value: false
