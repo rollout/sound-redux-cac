@@ -8,6 +8,10 @@ availableValues:
   - green
   - blue
 conditions:
+  - property:
+      name: brand
+      operator: is-undefined
+    value: []
   - dependency:
       flag: default.history
       value: 'true'
