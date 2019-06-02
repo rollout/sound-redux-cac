@@ -3,15 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name:
-        - QA
-        - Beta Users
-    value: true
-  - group:
-      name: DJ
-    value:
-      - percentage: 10
-        option: true
-value: false
+value:
+  - percentage: 50
+    option: true
