@@ -5,4 +5,3 @@ conditions:
     property: userId
     operand:
       - hey2
-      - hey
