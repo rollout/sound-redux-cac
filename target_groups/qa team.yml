@@ -5,6 +5,4 @@ conditions:
     property: userId
     operand:
       - abcd1234
-      - ddsadsa
-      - dsasaddsadsa
-      - abcd
+      - hey
