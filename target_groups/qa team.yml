@@ -4,4 +4,5 @@ conditions:
   - operator: in-array
     property: userId
     operand:
+      - hey2
       - hey
