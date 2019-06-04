@@ -5,7 +5,6 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      operator: nor
       name:
         - DJ
         - Internal emp
