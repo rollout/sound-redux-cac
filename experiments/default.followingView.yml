@@ -11,4 +11,11 @@ conditions:
         - alex@rollout.io
         - rrez@rollout.io
     value: true
+  - group:
+      name:
+        - Internal emp
+        - DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
