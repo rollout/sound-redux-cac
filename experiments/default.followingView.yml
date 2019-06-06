@@ -4,13 +4,6 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - alex@rollout.io
-        - rrez@rollout.io
-    value: true
   - group:
       name:
         - Internal emp
@@ -18,8 +11,4 @@ conditions:
     value:
       - percentage: 10
         option: true
-  - dependency:
-      flag: default.colorsVariant
-      value: blue
-    value: true
 value: false
