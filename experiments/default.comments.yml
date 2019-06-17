@@ -5,4 +5,4 @@ name: comments
 description: comments section on the artist page
 flag: default.comments
 labels: AB
-value: true
+value: false
