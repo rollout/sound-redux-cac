@@ -1,0 +1,6 @@
+type: target-group
+name: '321321'
+conditions:
+  - operator: regex
+    property: brand
+    operand: '213231'
