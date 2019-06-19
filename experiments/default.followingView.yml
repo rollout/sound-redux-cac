@@ -18,4 +18,8 @@ conditions:
       operand:
         - alex@rollout.io
     value: true
+  - dependency:
+      flag: default.colorsVariant
+      value: green
+    value: true
 value: false
