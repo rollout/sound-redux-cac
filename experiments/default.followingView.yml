@@ -11,5 +11,5 @@ conditions:
         - Beta Users
     value: true
 value:
-  - percentage: 20
+  - percentage: 33
     option: true
