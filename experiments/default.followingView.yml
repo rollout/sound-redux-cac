@@ -2,18 +2,13 @@
 # URL: https://app.rollout.io/ex/5d0d2177b579472c5181a870
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - v1.com
-        - v2.com
+  - group:
+      name:
+        - QA
+        - Beta Users
     value: true
-  - dependency:
-      flag: default.history
-      value: 'true'
-    value: true
-value: false
+value:
+  - percentage: 20
+    option: true
