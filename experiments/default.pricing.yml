@@ -12,4 +12,14 @@ availableValues:
   - p3_5
   - p4_5
   - p5_5
-value: []
+value:
+  - percentage: 20
+    option: p1_5
+  - percentage: 20
+    option: p2_5
+  - percentage: 20
+    option: p3_5
+  - percentage: 20
+    option: p4_5
+  - percentage: 20
+    option: p5_5
