@@ -6,11 +6,6 @@ flag: default.row_plays
 platforms:
   - name: Browser
     value: false
-conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - someemail@aol.com
-    value: true
-value: false
+value:
+  - percentage: 10
+    option: true
