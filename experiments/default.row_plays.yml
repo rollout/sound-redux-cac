@@ -7,9 +7,10 @@ platforms:
   - name: Browser
     value: false
 conditions:
-  - group:
-      name: DJ
-    value:
-      - percentage: 65
-        option: true
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - someemail@aol.com
+    value: true
 value: false
