@@ -7,7 +7,9 @@ labels:
   - AB
 flag: default.pricing
 availableValues:
-  - med
-  - high
-  - free
+  - p1_5
+  - p2_5
+  - p3_5
+  - p4_5
+  - p5_5
 value: []
