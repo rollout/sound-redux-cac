@@ -4,6 +4,12 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - erusovsky@cloudbees.com
+    value: true
   - group:
       name:
         - DJ
@@ -11,10 +17,4 @@ conditions:
     value:
       - percentage: 10
         option: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - erusovsky@cloudbees.com
-    value: true
 value: false
