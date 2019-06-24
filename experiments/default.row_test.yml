@@ -3,4 +3,6 @@
 type: experiment
 name: row test
 flag: default.row_test
-value: false
+value:
+  - percentage: 50
+    option: true
