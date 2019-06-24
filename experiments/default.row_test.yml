@@ -1,8 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d10da87d3f8151d0ce208c7
-type: experiment
-name: row test
-flag: default.row_test
-value:
-  - percentage: 50
-    option: true
