@@ -10,11 +10,4 @@ availableValues:
   - med
   - high
   - free
-platforms:
-  - name: Browser
-    value:
-      - percentage: 33
-        option: med
-      - percentage: 34
-        option: free
 value: []
