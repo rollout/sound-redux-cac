@@ -3,6 +3,11 @@
 type: experiment
 name: following view
 flag: default.followingView
-value:
-  - percentage: 10
-    option: true
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - erusovsky@cloudbees.com
+    value: true
+value: false
