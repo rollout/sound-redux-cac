@@ -3,13 +3,11 @@
 type: experiment
 name: following view
 flag: default.followingView
-value:
-  - from: 2019-06-25T15:42:09.136Z
-    percentage: 0
-    option: true
-  - from: 2019-06-26T00:00:00.000Z
-    percentage: 10
-    option: true
-  - from: 2019-06-29T00:00:00.000Z
-    percentage: 100
-    option: true
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - erez@cloudbees.com
+    value: true
+value: false
