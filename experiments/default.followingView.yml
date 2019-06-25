@@ -10,4 +10,11 @@ conditions:
       operand:
         - erez@cloudbees.com
     value: true
+  - group:
+      name:
+        - DJ
+        - Internal emp
+    value:
+      - percentage: 10
+        option: true
 value: false
