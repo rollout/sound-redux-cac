@@ -9,6 +9,6 @@ conditions:
         - DJ
         - Internal emp
     value:
-      - percentage: 10
+      - percentage: 45
         option: true
 value: false
