@@ -4,8 +4,4 @@ conditions:
   - operator: in-array
     property: userId
     operand:
-      - abcd1234
-      - ddsadsa
-      - dsasaddsadsa
-      - 34243432fds
-      - abcd
+      - hey2
