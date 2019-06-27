@@ -10,4 +10,12 @@ conditions:
       operand:
         - some@aol.com
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+        - DJ
+    value:
+      - percentage: 10
+        option: true
 value: false
