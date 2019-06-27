@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5d14ba1b1956f16faecc5ee2
+type: experiment
+name: row test
+flag: default.row_test
+value: false
