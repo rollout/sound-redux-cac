@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5d14ba361956f16faecc5efa
+type: experiment
+name: row comments
+flag: default.row_comments
+value: false
