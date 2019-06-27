@@ -5,11 +5,8 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      operator: nor
-      name:
-        - Internal emp
-        - Bad Versions
-  - group:
-      name: Internal emp
-    value: true
+      name: QA
+    value:
+      - percentage: 10
+        option: true
 value: false
