@@ -3,12 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name:
-        - Internal emp
-        - DJ
-    value:
-      - percentage: 55
-        option: true
-value: false
+value:
+  - percentage: 10
+    option: true
