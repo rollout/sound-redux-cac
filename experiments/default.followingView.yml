@@ -3,4 +3,11 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - some@aol.com
+    value: true
 value: false
