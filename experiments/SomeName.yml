@@ -3,4 +3,13 @@
 type: experiment
 name: some name
 flag: SomeName
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - dsadsad
+    value:
+      - percentage: 10
+        option: true
 value: false
