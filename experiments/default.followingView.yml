@@ -2,15 +2,8 @@
 # URL: https://app.rollout.io/ex/5d1a54b8d110e55c3e5a6a27
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 conditions:
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - someone@cloudbees.com
-    value: true
   - group:
       name:
         - Internal emp
