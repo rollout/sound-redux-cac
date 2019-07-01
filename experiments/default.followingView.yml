@@ -10,4 +10,11 @@ conditions:
       operand:
         - someone@cloudbees.com
     value: true
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+    value:
+      - percentage: 10
+        option: true
 value: false
