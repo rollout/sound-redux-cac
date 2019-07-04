@@ -5,12 +5,11 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name: QA
+      name:
+        - QA
+        - Internal emp
     value: true
-  - property:
-      name: email
-      operator: in-array
-      operand:
-        - eyal@rollout.io
-    value: true
+  - value:
+      - percentage: 10
+        option: true
 value: false
