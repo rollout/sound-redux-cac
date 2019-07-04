@@ -14,5 +14,11 @@ conditions:
       operator: in-array
       operand:
         - US
-    value: Watch Him
-value: Watch Him
+    value: Start Following
+value:
+  - percentage: 33
+    option: Watch Him
+  - percentage: 33
+    option: Start Following
+  - percentage: 34
+    option: Follow
