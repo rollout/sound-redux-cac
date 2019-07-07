@@ -1,0 +1,7 @@
+type: target-group
+name: delete1
+conditions:
+  - operator: in-array
+    property: brand
+    operand:
+      - '1'
