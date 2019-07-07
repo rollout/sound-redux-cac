@@ -9,7 +9,11 @@ conditions:
         - QA
         - Internal emp
     value: true
-  - value:
+  - property:
+      name: brand
+      operator: regex
+      operand: dsaads
+    value:
       - percentage: 10
         option: true
 value: false
