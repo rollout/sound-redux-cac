@@ -7,8 +7,10 @@ availableValues:
   - med
   - high
   - free
-conditions:
-  - group:
-      name: DJ
-    value: free
-value: med
+value:
+  - percentage: 33
+    option: med
+  - percentage: 33
+    option: high
+  - percentage: 34
+    option: free
