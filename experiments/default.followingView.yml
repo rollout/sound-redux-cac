@@ -3,17 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name:
-        - QA
-        - Internal emp
-    value: true
-  - property:
-      name: brand
-      operator: regex
-      operand: dsaads
-    value:
-      - percentage: 10
-        option: true
-value: false
+value:
+  - percentage: 50
+    option: true
