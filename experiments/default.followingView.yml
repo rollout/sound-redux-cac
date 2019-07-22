@@ -15,4 +15,6 @@ conditions:
       operand:
         - nvidman@cloudbees.com
     value: true
-value: false
+value:
+  - percentage: 5
+    option: true
