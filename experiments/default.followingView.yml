@@ -8,6 +8,7 @@ conditions:
       name:
         - QA
         - Beta Users
+        - Internal emp
     value: true
   - group:
       name: DJ
