@@ -7,4 +7,6 @@ conditions:
   - group:
       name: QA
     value: true
-value: false
+value:
+  - percentage: 50
+    option: true
