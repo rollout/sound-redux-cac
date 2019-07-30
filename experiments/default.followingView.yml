@@ -8,5 +8,5 @@ conditions:
       name: QA
     value: true
 value:
-  - percentage: 47
+  - percentage: 35
     option: true
