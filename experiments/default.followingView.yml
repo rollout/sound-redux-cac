@@ -1,6 +1,8 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d42be182b1633417b343038
+# URL: https://app.rollout.io/ex/5d42c4dabcc466413a1055c8
 type: experiment
 name: following view
 flag: default.followingView
-value: false
+value:
+  - percentage: 10
+    option: true
