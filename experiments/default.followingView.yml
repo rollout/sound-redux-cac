@@ -4,13 +4,6 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: last_name
-      operator: in-array
-      operand:
-        - temp
-        - tempo1
-    value: true
   - group:
       name:
         - Beta Users
