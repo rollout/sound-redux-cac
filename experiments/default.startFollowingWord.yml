@@ -14,5 +14,5 @@ conditions:
       operator: in-array
       operand:
         - US
-    value: Start Following
+    value: Watch Him
 value: Watch Him
