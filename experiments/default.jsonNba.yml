@@ -7,4 +7,14 @@ availableValues:
   - j3
   - j2
   - j1
-value: []
+conditions:
+  - group:
+      name: QA
+    value: j3
+value:
+  - percentage: 10
+    option: j3
+  - percentage: 80
+    option: j2
+  - percentage: 10
+    option: j1
