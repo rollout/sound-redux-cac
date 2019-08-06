@@ -3,4 +3,4 @@
 type: experiment
 name: comments
 flag: default.comments
-value: false
+value: true
