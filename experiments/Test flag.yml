@@ -1,10 +1,14 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d447c64bcc466413a10acb9
+# URL: https://app.rollout.io/ex/5d49d71babbc8a71f935aa98
 type: experiment
 name: test flag
 flag: Test flag
 conditions:
-  - group:
-      name: Beta Users
+  - property:
+      name: brand
+      operator: in-array
+      operand:
+        - stam1
+        - stam2
     value: true
 value: false
