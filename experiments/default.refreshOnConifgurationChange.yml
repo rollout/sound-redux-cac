@@ -3,4 +3,4 @@
 type: experiment
 name: refresh on conifguration change
 flag: default.refreshOnConifgurationChange
-value: false
+value: true
