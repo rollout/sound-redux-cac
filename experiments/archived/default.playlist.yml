@@ -1,7 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5b7195bd03a52619ba689acc
-type: experiment
-name: playlist
-labels: archived
-flag: default.playlist
-value: true
