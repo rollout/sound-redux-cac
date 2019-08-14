@@ -8,7 +8,5 @@ conditions:
   - version:
       operator: semver-gte
       semver: 1.2.3
-    value:
-      - percentage: 50
-        option: true
+    value: true
 value: true
