@@ -1,10 +1,6 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d5442fcc3cb8b1634f07da5
+# URL: https://app.rollout.io/ex/5d549072c3cb8b1634f0977c
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name: Internal emp
-    value: true
 value: false
