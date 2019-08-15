@@ -8,4 +8,4 @@ platforms:
     value: false
   - name: Android
     value: false
-value: false
+value: true
