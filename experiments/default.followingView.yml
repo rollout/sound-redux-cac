@@ -8,4 +8,10 @@ platforms:
     value: false
   - name: Android
     value: false
-value: true
+conditions:
+  - property:
+      name: playlist_count
+      operator: lt
+      operand: 10
+    value: true
+value: false
