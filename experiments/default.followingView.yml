@@ -9,9 +9,11 @@ platforms:
   - name: Android
     value: false
 conditions:
-  - property:
-      name: playlist_count
-      operator: lt
-      operand: 10
-    value: true
+  - group:
+      name:
+        - QA
+        - Internal emp
+    value:
+      - percentage: 20
+        option: true
 value: false
