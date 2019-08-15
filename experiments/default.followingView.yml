@@ -11,4 +11,4 @@ conditions:
     value: true
 value:
   - percentage: 19
-    option: true
+    option: false
