@@ -3,4 +3,9 @@
 type: experiment
 name: comments
 flag: default.comments
+platforms:
+  - name: Browser
+    value: false
+  - name: NodeJS
+    value: false
 value: true
