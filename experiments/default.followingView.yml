@@ -1,19 +1,6 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d55bb87c3cb8b1634f0dbd8
+# URL: https://app.rollout.io/ex/5d5b22222385ac15e39baf40
 type: experiment
 name: following view
 flag: default.followingView
-platforms:
-  - name: NodeJS
-    value: false
-  - name: Android
-    value: false
-conditions:
-  - group:
-      name:
-        - QA
-        - Internal emp
-    value:
-      - percentage: 45
-        option: true
 value: false
