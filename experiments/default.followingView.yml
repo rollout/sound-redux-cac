@@ -3,4 +3,12 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: plan
+      operator: in-array
+      operand:
+        - PlanA
+        - planB
+    value: true
 value: false
