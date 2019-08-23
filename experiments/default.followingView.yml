@@ -4,6 +4,13 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
+    value:
+      - percentage: 10
+        option: true
   - property:
       name: plan
       operator: in-array
