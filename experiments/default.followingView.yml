@@ -9,6 +9,6 @@ conditions:
         - Beta Users
         - Internal emp
     value:
-      - percentage: 10
+      - percentage: 33
         option: true
 value: false
