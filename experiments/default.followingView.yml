@@ -3,4 +3,9 @@
 type: experiment
 name: following view
 flag: default.followingView
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: false
 value: false
