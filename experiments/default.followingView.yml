@@ -3,11 +3,4 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - property:
-      name: last_name
-      operator: in-array
-      operand:
-        - rusovsky
-    value: true
 value: false
