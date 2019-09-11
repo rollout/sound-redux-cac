@@ -10,4 +10,4 @@ platforms:
     value: false
   - name: Java
     value: false
-value: false
+value: true
