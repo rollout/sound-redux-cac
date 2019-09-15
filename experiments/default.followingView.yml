@@ -7,5 +7,12 @@ platforms:
   - name: Java
     value: false
   - name: Android
+    conditions:
+      - property:
+          name: plan
+          operator: in-array
+          operand:
+            - pro
+        value: true
     value: false
 value: true
