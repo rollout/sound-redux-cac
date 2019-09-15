@@ -6,6 +6,7 @@ description: String based flag
 flag: default.startFollowingWord
 availableValues:
   - Watch Him
-  - Start Following
   - Follow
+  - Start Following
+  - Bank
 value: Watch Him
