@@ -9,8 +9,4 @@ availableValues:
   - Follow
   - Start Following
   - Bank
-value:
-  - percentage: 20
-    option: Start Following
-  - percentage: 80
-    option: Bank
+value: Bank
