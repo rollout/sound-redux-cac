@@ -5,7 +5,7 @@ name: following view
 flag: default.followingView
 platforms:
   - name: Java
-    value: false
+    value: true
   - name: Android
     conditions:
       - property:
