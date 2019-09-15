@@ -8,11 +8,4 @@ availableValues:
   - Watch Him
   - Start Following
   - Follow
-conditions:
-  - property:
-      name: country
-      operator: in-array
-      operand:
-        - US
-    value: Watch Him
-value: Follow
+value: Watch Him
