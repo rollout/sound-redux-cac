@@ -6,4 +6,6 @@ flag: default.followingView
 platforms:
   - name: Java
     value: false
+  - name: Android
+    value: false
 value: true
