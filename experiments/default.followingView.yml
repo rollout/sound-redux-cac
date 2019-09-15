@@ -12,4 +12,10 @@ conditions:
         - QA
         - Internal emp
     value: true
+  - version:
+      operator: semver-gte
+      semver: 1.20.14
+    value:
+      - percentage: 10
+        option: true
 value: false
