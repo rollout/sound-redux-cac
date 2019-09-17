@@ -6,5 +6,5 @@ flag: default.followingView
 conditions:
   - group:
       name: Internal Test
-    value: false
-value: true
+    value: true
+value: false
