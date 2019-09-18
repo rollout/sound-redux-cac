@@ -5,6 +5,11 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
+      name: DJ
+    value:
+      - percentage: 10
+        option: true
+  - group:
       name:
         - Beta Users
         - Internal emp
