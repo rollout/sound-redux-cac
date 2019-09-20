@@ -3,8 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name: Internal Testing
-    value: true
-value: false
+value:
+  - percentage: 10
+    option: true
