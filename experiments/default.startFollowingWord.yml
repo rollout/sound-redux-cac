@@ -5,8 +5,7 @@ name: start following word
 description: String based flag
 flag: default.startFollowingWord
 availableValues:
-  - Watch Him
   - Follow
   - Start Following
-  - Bank
+  - Watch Him
 value: Follow
