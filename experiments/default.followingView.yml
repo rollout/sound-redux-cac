@@ -4,5 +4,5 @@ type: experiment
 name: following view
 flag: default.followingView
 value:
-  - percentage: 10
+  - percentage: 50
     option: true
