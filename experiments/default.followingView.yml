@@ -3,14 +3,4 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - property:
-      name: plan
-      operator: in-array
-      operand:
-        - A
-        - B
-    value:
-      - percentage: 55
-        option: true
 value: false
