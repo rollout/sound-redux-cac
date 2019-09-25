@@ -2,6 +2,8 @@
 # URL: https://app.rollout.io/ex/5d8bcbc39ee677413c0e12c9
 type: experiment
 name: following view
-labels: Gradual Rollout
+labels:
+  - Gradual Rollout
+  - stable_state_experiments
 flag: default.followingView
 value: false
