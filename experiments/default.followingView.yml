@@ -6,8 +6,7 @@ flag: default.followingView
 conditions:
   - property:
       name: user_email
-      operator: in-array
-      operand:
-        - gavsyuk@cloudbees.com
+      operator: regex
+      operand: '*@cloudbees.com'
     value: true
 value: false
