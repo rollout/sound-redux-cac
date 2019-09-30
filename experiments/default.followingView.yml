@@ -8,5 +8,11 @@ conditions:
       name: user_email
       operator: regex
       operand: '*@cloudbees.com'
-    value: true
+    value:
+      - from: 2019-09-30T20:24:30.787Z
+        percentage: 100
+        option: true
+      - from: 2019-10-14T00:00:00.000Z
+        percentage: 0
+        option: true
 value: false
