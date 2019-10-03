@@ -2,6 +2,7 @@
 # URL: https://app.rollout.io/ex/5d49d1ffbcc466413a117911
 type: experiment
 name: comments
+labels: Gradual Rollout
 flag: default.comments
 platforms:
   - name: Browser
