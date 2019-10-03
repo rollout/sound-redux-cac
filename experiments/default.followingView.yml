@@ -3,6 +3,7 @@
 type: experiment
 name: Following View
 description: open for QA
+labels: Gradual Rollout
 flag: default.followingView
 conditions:
   - version:
