@@ -1,7 +1,7 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5d95ed589ee677413c0e26d9
 type: experiment
-name: not sss
+name: Following View
 description: open for QA
 flag: default.followingView
 conditions:
