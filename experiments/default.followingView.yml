@@ -8,12 +8,6 @@ conditions:
   - version:
       operator: semver-gte
       semver: 1.2.3
-    group:
-      name: QA
-    value: true
-  - version:
-      operator: semver-gte
-      semver: 1.2.3
     value:
       - percentage: 10
         option: true
