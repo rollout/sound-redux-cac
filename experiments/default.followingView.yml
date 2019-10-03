@@ -4,4 +4,17 @@ type: experiment
 name: following view
 description: open for QA
 flag: default.followingView
-value: true
+conditions:
+  - version:
+      operator: semver-gte
+      semver: 1.2.3
+    group:
+      name: QA
+    value: true
+  - version:
+      operator: semver-gte
+      semver: 1.2.3
+    value:
+      - percentage: 10
+        option: true
+value: false
