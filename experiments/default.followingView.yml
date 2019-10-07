@@ -3,10 +3,4 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - group:
-      name: QA
-    value: true
-value:
-  - percentage: 10
-    option: true
+value: false
