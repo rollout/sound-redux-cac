@@ -2,18 +2,17 @@
 # URL: https://app.rollout.io/ex/5d9caedcf5bf800952caa850
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 conditions:
-  - group:
-      name:
-        - Internal emp
-        - QA
-    value: true
   - property:
       name: user_id
       operator: lt
       operand: 100
+    value: true
+  - group:
+      name:
+        - Internal emp
+        - QA
     value: true
 value:
   - percentage: 10
