@@ -3,6 +3,17 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - group:
+      name:
+        - Internal emp
+        - QA
+    value: true
+  - property:
+      name: user_id
+      operator: lt
+      operand: 100
+    value: true
 value:
   - percentage: 10
     option: true
