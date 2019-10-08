@@ -15,5 +15,7 @@ conditions:
       operand:
         - PlanA
         - PlanB
-    value: true
+    value:
+      - percentage: 10
+        option: true
 value: false
