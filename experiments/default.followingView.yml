@@ -10,5 +10,5 @@ conditions:
         - Internal emp
     value: true
 value:
-  - percentage: 50
+  - percentage: 70
     option: true
