@@ -12,7 +12,5 @@ platforms:
 conditions:
   - group:
       name: Beta Users
-    value:
-      - percentage: 100
-        option: true
+    value: true
 value: false
