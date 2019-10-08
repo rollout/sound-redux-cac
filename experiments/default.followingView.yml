@@ -16,4 +16,6 @@ conditions:
         - PlanA
         - PlanB
     value: true
-value: false
+value:
+  - percentage: 10
+    option: true
