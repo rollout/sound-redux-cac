@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5daf2449e956ce753a377047
+type: experiment
+name: tes flag
+flag: Tes Flag
+value: false
