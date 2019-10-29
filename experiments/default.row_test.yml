@@ -3,4 +3,17 @@
 type: experiment
 name: row test
 flag: default.row_test
-value: false
+conditions:
+  - group:
+      name:
+        - QA
+        - Beta Users
+    value: true
+  - property:
+      name: user_email
+      operator: regex
+      operand: '*cloudbees\.com$'
+    value: true
+value:
+  - percentage: 10
+    option: true
