@@ -3,6 +3,9 @@
 type: experiment
 name: following view
 flag: default.followingView
+platforms:
+  - name: Java
+    value: false
 conditions:
   - dependency:
       flag: default.shuffle
