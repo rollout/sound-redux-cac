@@ -4,8 +4,8 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'true'
-    value: true
-value: false
+  - group:
+      name: Bad Versions
+value:
+  - percentage: 10
+    option: true
