@@ -6,6 +6,7 @@ flag: default.followingView
 conditions:
   - group:
       name: Bad Versions
+    value: true
 value:
   - percentage: 10
     option: true
