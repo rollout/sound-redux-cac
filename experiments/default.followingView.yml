@@ -3,4 +3,9 @@
 type: experiment
 name: following view
 flag: default.followingView
-value: true
+conditions:
+  - dependency:
+      flag: default.shuffle
+      value: 'false'
+    value: true
+value: false
