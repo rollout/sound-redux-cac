@@ -4,8 +4,11 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'false'
+  - property:
+      name: plan
+      operator: in-array
+      operand:
+        - planA
+        - planB
     value: true
 value: false
