@@ -7,12 +7,10 @@ conditions:
   - dependency:
       flag: default.history
       value: 'true'
-    value: true
   - property:
       name: plan
       operator: in-array
       operand:
         - planA
         - planB
-    value: true
 value: false
