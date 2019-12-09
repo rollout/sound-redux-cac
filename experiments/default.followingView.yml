@@ -4,10 +4,8 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: soundcloud_id
-      operator: in-array
-      operand:
-        - '1'
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
     value: true
 value: false
