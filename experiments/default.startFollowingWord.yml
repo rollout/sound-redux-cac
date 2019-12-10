@@ -5,8 +5,9 @@ name: start following word
 description: String based flag
 flag: default.startFollowingWord
 availableValues:
-  - Watch Him
   - Follow
-  - Start Following
   - Hi Lisbon
+  - Start Following
+  - Watch Him
+  - Hey Erez
 value: Follow
