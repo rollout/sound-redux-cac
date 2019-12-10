@@ -4,7 +4,8 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      name: QA
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
     value: true
 value: false
