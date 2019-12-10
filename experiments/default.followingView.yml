@@ -4,9 +4,7 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: user_email
-      operator: regex
-      operand: '*@cloudbees.com'
+  - group:
+      name: QA
     value: true
 value: false
