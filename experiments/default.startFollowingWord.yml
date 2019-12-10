@@ -2,7 +2,7 @@
 # URL: https://app.rollout.io/ex/5c125b67d580704f58f10c03
 type: experiment
 name: start following word
-description: String based flag
+description: Hi Erez
 flag: default.startFollowingWord
 availableValues:
   - Follow
