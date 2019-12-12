@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5df241b0d3387e1cd4c7fa92
-type: experiment
-name: refresh on conifguration change
-flag: default.refreshOnConifgurationChange
-value: false
