@@ -2,6 +2,5 @@
 # URL: https://app.rollout.io/ex/5df26bbac231a21e19e1fec8
 type: experiment
 name: following view
-enabled: false
 flag: default.followingView
 value: true
