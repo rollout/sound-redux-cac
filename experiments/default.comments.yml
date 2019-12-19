@@ -10,10 +10,8 @@ platforms:
   - name: NodeJS
     value: false
 conditions:
-  - property:
-      name: country
-      operator: in-array
-      operand:
-        - USA
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
     value: true
 value: false
