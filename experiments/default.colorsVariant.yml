@@ -5,6 +5,7 @@ name: colors variant
 flag: default.colorsVariant
 availableValues:
   - red
-  - green
   - blue
+  - green
+  - another value
 value: red
