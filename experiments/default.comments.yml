@@ -10,9 +10,10 @@ platforms:
   - name: NodeJS
     value: false
 conditions:
-  - group:
-      name:
-        - Beta Users
-        - QA
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - USA
     value: true
 value: false
