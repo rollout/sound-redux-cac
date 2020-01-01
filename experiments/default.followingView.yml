@@ -9,4 +9,12 @@ conditions:
         - QA
         - Beta Users
     value: true
-value: false
+  - property:
+      name: user_email
+      operator: in-array
+      operand:
+        - eyal@rollout.io
+    value: true
+value:
+  - percentage: 10
+    option: true
