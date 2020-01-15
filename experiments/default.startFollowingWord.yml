@@ -4,7 +4,6 @@ type: experiment
 name: start following word
 flag: default.startFollowingWord
 availableValues:
-  - 'http://www.google.com'
   - Follow
   - Start Following
   - Watch Him
