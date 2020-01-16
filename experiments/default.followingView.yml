@@ -3,4 +3,7 @@
 type: experiment
 name: following view
 flag: default.followingView
+platforms:
+  - name: Java
+    value: false
 value: false
