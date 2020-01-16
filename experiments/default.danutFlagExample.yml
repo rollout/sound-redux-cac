@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5e20cf270afb180bca8baaf5
-type: experiment
-name: danut flag example
-flag: default.danutFlagExample
-value: false
