@@ -9,4 +9,9 @@ availableValues:
   - blue
   - green
   - some new value
+platforms:
+  - name: Browser
+    value: []
+  - name: tizen
+    value: []
 value: red
