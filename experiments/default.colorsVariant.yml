@@ -2,7 +2,9 @@
 # URL: https://app.rollout.io/ex/5c87e17218d3656b1fe4a6cc
 type: experiment
 name: colors variant
-labels: report_to_analytics
+labels:
+  - report_to_analytics
+  - AB
 flag: default.colorsVariant
 availableValues:
   - red
