@@ -14,4 +14,8 @@ platforms:
     value: []
   - name: tizen
     value: []
+conditions:
+  - group:
+      name: QA
+    value: blue
 value: red
