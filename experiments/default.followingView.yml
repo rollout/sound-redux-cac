@@ -11,4 +11,4 @@ conditions:
   - group:
       name: Following View Subscribers
     value: true
-value: false
+value: true
