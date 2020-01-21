@@ -2,7 +2,10 @@
 # URL: https://app.rollout.io/ex/5e208e712b50975473bfff0a
 type: experiment
 name: following view
-description: 'Stam '
+description: >-
+  Stam kfglkdfjgfklgjfkgjfdl gkjdfl jdfklgjfd lkgjfdklgj dfklgjklfd
+  jgfklgjfdklgjfdlkgjfdklgjfdlkgjdfklgjfdlgjfdklgjflkgjfdlkg jfdklgjfklgjf
+  dklgjfdklgjdflg
 flag: default.followingView
 conditions:
   - group:
