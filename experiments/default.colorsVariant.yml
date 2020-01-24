@@ -5,6 +5,7 @@ name: colors variant
 labels:
   - report_to_analytics
   - AB
+enabled: false
 flag: default.colorsVariant
 availableValues:
   - red
