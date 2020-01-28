@@ -5,7 +5,6 @@ name: colors variant
 labels:
   - report_to_analytics
   - AB
-enabled: false
 flag: default.colorsVariant
 availableValues:
   - red
@@ -21,5 +20,5 @@ platforms:
 conditions:
   - group:
       name: QA
-    value: blue
-value: red
+    value: another value
+value: another value
