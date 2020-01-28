@@ -5,6 +5,11 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name: QA
+      name:
+        - QA
+        - Internal emp
+        - Beta Users
     value: true
-value: false
+value:
+  - percentage: 10
+    option: true
