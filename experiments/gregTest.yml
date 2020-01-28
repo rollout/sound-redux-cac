@@ -3,4 +3,13 @@
 type: experiment
 name: greg test
 flag: gregTest
-value: false
+value:
+  - from: 2020-01-28T13:08:32.546Z
+    percentage: 0
+    option: true
+  - from: 2020-01-29T00:00:00.000Z
+    percentage: 15
+    option: true
+  - from: 2020-01-30T00:00:00.000Z
+    percentage: 100
+    option: true
