@@ -3,4 +3,4 @@
 type: experiment
 name: following view
 flag: followingView
-value: false
+value: true
