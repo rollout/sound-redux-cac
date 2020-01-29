@@ -3,4 +3,11 @@
 type: experiment
 name: following view
 flag: followingView
-value: true
+conditions:
+  - property:
+      name: user_email
+      operator: in-array
+      operand:
+        - erusovsky@cloudbees.com
+    value: true
+value: false
