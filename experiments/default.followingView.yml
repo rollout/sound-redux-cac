@@ -3,4 +3,10 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: playlist_count
+      operator: lt
+      operand: 10
+    value: true
 value: false
