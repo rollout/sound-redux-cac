@@ -8,4 +8,5 @@ conditions:
       name: playlist_count
       operator: lt
       operand: 10
-value: true
+    value: true
+value: false
