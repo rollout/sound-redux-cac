@@ -1,24 +1,10 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c87e17218d3656b1fe4a6cc
+# URL: https://app.rollout.io/ex/5e3130143d932900097b1c0a
 type: experiment
 name: colors variant
-labels:
-  - report_to_analytics
-  - AB
 flag: default.colorsVariant
 availableValues:
   - red
-  - another value
-  - blue
   - green
-  - some new value
-platforms:
-  - name: Browser
-    value: []
-  - name: tizen
-    value: []
-conditions:
-  - group:
-      name: QA
-    value: another value
-value: another value
+  - blue
+value: []
