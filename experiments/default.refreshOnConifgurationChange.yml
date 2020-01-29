@@ -4,7 +4,6 @@ type: experiment
 name: refresh on conifguration change
 labels:
   - report_to_analytics
-  - THE NEW LABLE
   - AB
 flag: default.refreshOnConifgurationChange
 value: false
