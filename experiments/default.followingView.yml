@@ -7,7 +7,7 @@ conditions:
   - group:
       name: DJ
     value:
-      - percentage: 10
+      - percentage: 55
         option: true
   - group:
       name:
