@@ -3,6 +3,11 @@
 type: experiment
 name: history
 flag: default.history
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: false
 conditions:
   - group:
       name: Paying user
