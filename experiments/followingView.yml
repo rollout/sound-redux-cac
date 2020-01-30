@@ -3,4 +3,6 @@
 type: experiment
 name: following view
 flag: followingView
+conditions:
+  - value: true
 value: true
