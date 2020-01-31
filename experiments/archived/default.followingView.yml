@@ -2,6 +2,7 @@
 # URL: https://app.rollout.io/ex/5e33207e2eeec6000aadda86
 type: experiment
 name: following view
+labels: archived
 flag: default.followingView
 platforms:
   - name: Browser
