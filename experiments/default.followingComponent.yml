@@ -3,4 +3,8 @@
 type: experiment
 name: following component
 flag: default.followingComponent
+conditions:
+  - group:
+      name: Beta Users
+    value: true
 value: false
