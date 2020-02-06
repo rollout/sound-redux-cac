@@ -7,5 +7,5 @@ platforms:
   - name: Browser
     value: false
 value:
-  - percentage: 50
+  - percentage: 10
     option: true
