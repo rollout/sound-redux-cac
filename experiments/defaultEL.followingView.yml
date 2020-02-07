@@ -3,4 +3,7 @@
 type: experiment
 name: following view
 flag: defaultEL.followingView
+platforms:
+  - name: Browser
+    value: false
 value: false
