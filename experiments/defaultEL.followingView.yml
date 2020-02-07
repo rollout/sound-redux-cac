@@ -1,7 +1,7 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5e3d771e71dbc8000a18bd05
 type: experiment
-name: following view
+name: following view - browser
 flag: defaultEL.followingView
 platforms:
   - name: Browser
