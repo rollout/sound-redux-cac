@@ -2,8 +2,5 @@
 # URL: https://app.rollout.io/ex/5e1dc65ff0c32515d42fd836
 type: experiment
 name: refresh on conifguration change
-labels:
-  - AB
-  - report_to_analytics
 flag: default.refreshOnConifgurationChange
 value: false
