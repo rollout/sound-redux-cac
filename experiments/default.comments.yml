@@ -9,9 +9,4 @@ platforms:
     value: false
   - name: NodeJS
     value: false
-conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'true'
-    value: true
 value: false
