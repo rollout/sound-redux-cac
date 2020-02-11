@@ -7,4 +7,8 @@ availableValues:
   - Follow
   - If Business
   - Watch Him
-value: If Business
+value:
+  - percentage: 50
+    option: Follow
+  - percentage: 50
+    option: Watch Him
