@@ -15,5 +15,5 @@ conditions:
       operand:
         - pro
 value:
-  - percentage: 10
+  - percentage: 99
     option: true
