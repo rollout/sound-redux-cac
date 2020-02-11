@@ -5,8 +5,8 @@ name: following view
 flag: default.followingView
 conditions:
   - property:
-      name: url
-      operator: regex
-      operand: '*63493914'
+      name: playlist_count
+      operator: lt
+      operand: 100
     value: true
 value: false
