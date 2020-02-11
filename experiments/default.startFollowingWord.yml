@@ -8,7 +8,11 @@ availableValues:
   - Start Following
   - Watch Him
 conditions:
-  - value:
+  - property:
+      name: last_name
+      operator: regex
+      operand: grdrr
+    value:
       - percentage: 43
         option: Start Following
 value: Watch Him
