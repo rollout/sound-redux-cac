@@ -3,4 +3,10 @@
 type: experiment
 name: following view
 flag: default.followingView
-value: true
+conditions:
+  - property:
+      name: url
+      operator: regex
+      operand: '*/users/63493914'
+    value: true
+value: false
