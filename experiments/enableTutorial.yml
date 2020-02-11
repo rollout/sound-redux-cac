@@ -3,4 +3,13 @@
 type: experiment
 name: enable tutorial
 flag: enableTutorial
+conditions:
+  - property:
+      name: last_name
+      operator: in-array
+      operand:
+        - sadsadad
+    value:
+      - percentage: 50
+        option: true
 value: false
