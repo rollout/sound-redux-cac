@@ -2,6 +2,10 @@
 # URL: https://app.rollout.io/ex/5e4320f3be06660009d2910d
 type: experiment
 name: start following word
+labels:
+  - report_to_analytics
+  - stable_state_experiments
+  - sss
 flag: defaultEL.startFollowingWord
 availableValues:
   - Watch Him
