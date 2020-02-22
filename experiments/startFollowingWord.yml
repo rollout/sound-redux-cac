@@ -7,4 +7,8 @@ availableValues:
   - Watch Him
   - Start Following
   - Follow
-value: []
+value:
+  - percentage: 10
+    option: Watch Him
+  - percentage: 30
+    option: Start Following
