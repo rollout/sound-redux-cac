@@ -1,6 +1,6 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5e5415a97698fe8d229df314
+# URL: https://app.rollout.io/ex/5e5424966d58142c6aee4ead
 type: experiment
 name: following component
 flag: default.followingComponent
-value: false
+value: true
