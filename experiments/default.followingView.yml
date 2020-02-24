@@ -6,4 +6,4 @@ flag: default.followingView
 conditions:
   - group:
       name: DJ
-value: true
+value: false
