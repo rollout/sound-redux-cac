@@ -1,14 +1,10 @@
 # This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c125b67d580704f58f10c03
+# URL: https://app.rollout.io/ex/5e55a2490d720a0ab8c347f3
 type: experiment
 name: start following word
 flag: default.startFollowingWord
 availableValues:
-  - Follow
-  - If Business
   - Watch Him
-value:
-  - percentage: 50
-    option: Follow
-  - percentage: 50
-    option: Watch Him
+  - Start Following
+  - Follow
+value: []
