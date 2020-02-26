@@ -8,8 +8,4 @@ labels:
   - AB
   - stable_state_experiments
 flag: default.followingView
-conditions:
-  - group:
-      name: DJ
-    value: true
 value: false
