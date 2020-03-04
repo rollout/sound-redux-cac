@@ -1,7 +1,6 @@
 type: target-group
 name: qa team
 conditions:
-  - operator: in-array
-    property: userId
-    operand:
-      - hey2
+  - operator: eq
+    property: rox.screen_height
+    operand: 3223
