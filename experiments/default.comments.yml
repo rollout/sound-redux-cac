@@ -3,6 +3,7 @@
 type: experiment
 name: comments
 labels: Gradual Rollout
+enabled: false
 flag: default.comments
 platforms:
   - name: Browser
