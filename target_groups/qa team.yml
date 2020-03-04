@@ -2,5 +2,5 @@ type: target-group
 name: qa team
 conditions:
   - operator: eq
-    property: rox.screen_height
-    operand: 3223
+    property: playlist_count
+    operand: 3232
