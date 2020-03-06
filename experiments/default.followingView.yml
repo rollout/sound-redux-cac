@@ -4,10 +4,14 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - property:
-      name: last_name
-      operator: in-array
-      operand:
-        - sdasdasd
+  - group:
+      name: QA
     value: true
-value: false
+  - group:
+      name:
+        - Internal emp
+        - Bad Versions
+    value: true
+value:
+  - percentage: 50
+    option: true
