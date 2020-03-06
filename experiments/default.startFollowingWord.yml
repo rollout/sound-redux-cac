@@ -5,6 +5,7 @@ name: start following word
 flag: default.startFollowingWord
 availableValues:
   - Watch Him
-  - Start Following
   - Follow
+  - Start Following
+  - Josh
 value: Watch Him
