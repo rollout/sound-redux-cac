@@ -3,4 +3,11 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: last_name
+      operator: in-array
+      operand:
+        - sdasdasd
+    value: true
 value: false
