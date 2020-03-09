@@ -1,5 +1,5 @@
 type: target-group
-name: Paying user long name
+name: Paying user very very long name
 conditions:
   - operator: in-array
     property: plan
