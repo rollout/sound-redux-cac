@@ -5,6 +5,8 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
-      name: Beta Users
+      name:
+        - Beta Users
+        - Paying user long name
     value: true
 value: false

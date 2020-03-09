@@ -10,6 +10,6 @@ platforms:
     value: false
 conditions:
   - group:
-      name: Paying user
+      name: Paying user long name
     value: true
 value: false
