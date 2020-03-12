@@ -2,10 +2,9 @@
 # URL: https://app.rollout.io/ex/5e6947371a60cc518db2ab74
 type: experiment
 name: start following word
-enabled: false
 flag: startFollowingWord
 availableValues:
   - Watch Him
   - Start Following
   - Follow
-value: []
+value: Watch Him
