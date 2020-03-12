@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5e5ff7130023077526c40a3f
-type: experiment
-name: new user tab
-flag: NewUserTab
-value: true
