@@ -1,0 +1,6 @@
+type: target-group
+name: Internal emp
+conditions:
+  - operator: regex
+    property: email
+    operand: '@rollout\.io$'

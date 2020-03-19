@@ -1,0 +1,10 @@
+type: target-group
+name: Internal Testers
+conditions:
+  - operator: in-array
+    property: plan
+    operand:
+      - Tester
+  - operator: regex
+    property: user_email
+    operand: '*@cloudbees.com'

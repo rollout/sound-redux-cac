@@ -1,0 +1,6 @@
+type: target-group
+name: qa team
+conditions:
+  - operator: eq
+    property: playlist_count
+    operand: 3232
