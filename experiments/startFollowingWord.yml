@@ -2,7 +2,6 @@
 # URL: https://app.rollout.io/ex/5e6947371a60cc518db2ab74
 type: experiment
 name: start following word
-labels: archived
 flag: startFollowingWord
 availableValues:
   - Watch Him
