@@ -3,4 +3,20 @@
 type: experiment
 name: repeat
 flag: default.repeat
+conditions:
+  - property:
+      name: last_name
+      operator: in-array
+      operand:
+        - dsfdsds
+        - fdsdsf
+        - ds
+        - fdsf
+        - fs
+        - f
+        - sdf
+        - sd
+    value:
+      - percentage: 10
+        option: true
 value: false
