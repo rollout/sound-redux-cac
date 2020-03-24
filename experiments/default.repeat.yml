@@ -2,6 +2,7 @@
 # URL: https://app.rollout.io/ex/5e62853deab9e14cec4be530
 type: experiment
 name: repeat
+enabled: false
 flag: default.repeat
 conditions:
   - property:
