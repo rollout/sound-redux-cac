@@ -2,4 +2,14 @@
 # URL: https://app.rollout.io/ex/5e7f9b7214d270273f611eb7
 type: experiment
 flag: aaa
+conditions:
+  - version:
+      operator: semver-gte
+      semver: '1224'
+    property:
+      name: plan
+      operator: in-array
+      operand:
+        - sasasas
+    value: true
 value: false
