@@ -7,10 +7,4 @@ availableValues:
   - Watch Him
   - Start Following
   - Follow
-value:
-  - percentage: 10
-    option: Watch Him
-  - percentage: 20
-    option: Start Following
-  - percentage: 10
-    option: Follow
+value: Follow
