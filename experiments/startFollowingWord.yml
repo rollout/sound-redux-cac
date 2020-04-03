@@ -4,7 +4,7 @@ type: experiment
 name: start following word
 flag: startFollowingWord
 availableValues:
-  - Watch Him
-  - Start Following
   - Follow
+  - Eyal
+  - Keren
 value: Follow
