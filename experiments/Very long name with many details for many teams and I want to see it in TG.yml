@@ -3,4 +3,6 @@
 type: experiment
 name: very long name with many details for many teams and i want to see it in tg
 flag: Very long name with many details for many teams and I want to see it in TG
-value: false
+value:
+  - percentage: 10
+    option: true
