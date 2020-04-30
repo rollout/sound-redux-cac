@@ -3,4 +3,12 @@
 type: experiment
 name: repeat
 flag: default.repeat
-value: false
+conditions:
+  - group:
+      name:
+        - QA
+        - DJ
+    value: true
+value:
+  - percentage: 10
+    option: true
