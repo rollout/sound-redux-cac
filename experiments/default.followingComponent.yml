@@ -4,10 +4,7 @@ type: experiment
 name: following component
 flag: default.followingComponent
 conditions:
-  - property:
-      name: plan
-      operator: in-array
-      operand:
-        - tester
+  - group:
+      name: Beta Users
     value: true
 value: false
