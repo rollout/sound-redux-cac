@@ -3,4 +3,11 @@
 type: experiment
 name: following component
 flag: default.followingComponent
+conditions:
+  - property:
+      name: plan
+      operator: in-array
+      operand:
+        - tester
+    value: true
 value: false
