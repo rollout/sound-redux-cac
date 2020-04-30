@@ -2,5 +2,6 @@
 # URL: https://app.rollout.io/ex/5eab42e4c0b9811256822c90
 type: experiment
 name: following component
+enabled: false
 flag: default.followingComponent
 value: true
