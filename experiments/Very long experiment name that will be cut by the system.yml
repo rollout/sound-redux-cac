@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eb04f48a7cf7a8d586b5360
+type: experiment
+name: very long experiment name that will be cut by the system
+flag: Very long experiment name that will be cut by the system
+value: false
