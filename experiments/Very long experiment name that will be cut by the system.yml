@@ -3,4 +3,6 @@
 type: experiment
 name: very long experiment name that will be cut by the system
 flag: Very long experiment name that will be cut by the system
-value: false
+value:
+  - percentage: 50
+    option: true
