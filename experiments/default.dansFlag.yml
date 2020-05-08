@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eb579e2ec43f52aa0fdef35
+type: experiment
+name: dans flag
+flag: default.dansFlag
+value: false
