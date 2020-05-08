@@ -10,5 +10,5 @@ conditions:
         - DJ
     value: true
 value:
-  - percentage: 10
+  - percentage: 90
     option: true
