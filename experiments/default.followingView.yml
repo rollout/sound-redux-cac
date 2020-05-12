@@ -3,4 +3,11 @@
 type: experiment
 name: following view
 flag: default.followingView
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - abcd
+    value: false
 value: false
