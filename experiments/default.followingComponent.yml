@@ -4,12 +4,8 @@ type: experiment
 name: following component
 flag: default.followingComponent
 conditions:
-  - property:
-      name: country
-      operator: in-array
-      operand:
-        - USA
-    value:
-      - percentage: 50
-        option: true
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
+    value: true
 value: false
