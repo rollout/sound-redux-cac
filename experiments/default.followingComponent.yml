@@ -5,8 +5,9 @@ name: following component
 flag: default.followingComponent
 conditions:
   - property:
-      name: user_email
-      operator: regex
-      operand: '*@cloudbees.com'
+      name: soundcloud_id
+      operator: in-array
+      operand:
+        - '1'
     value: true
 value: false
