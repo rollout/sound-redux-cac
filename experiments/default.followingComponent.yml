@@ -3,6 +3,15 @@
 type: experiment
 name: following component
 flag: default.followingComponent
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - USA
+    value:
+      - percentage: 50
+        option: true
 value:
   - percentage: 10
     option: true
