@@ -3,11 +3,6 @@
 type: experiment
 name: following component
 flag: default.followingComponent
-conditions:
-  - property:
-      name: soundcloud_id
-      operator: in-array
-      operand:
-        - '1'
-    value: true
-value: false
+value:
+  - percentage: 10
+    option: true
