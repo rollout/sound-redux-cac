@@ -9,4 +9,4 @@ value:
     option: true
   - from: 2020-05-20T00:00:00.000Z
     percentage: 100
-    option: true
+    option: false
