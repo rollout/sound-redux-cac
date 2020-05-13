@@ -8,4 +8,4 @@ conditions:
       flag: default.shuffle
       value: 'true'
     value: false
-value: false
+value: true
