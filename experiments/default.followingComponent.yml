@@ -3,6 +3,12 @@
 type: experiment
 name: following component
 flag: default.followingComponent
+conditions:
+  - property:
+      name: user_email
+      operator: regex
+      operand: '*@cloudbees.com'
+    value: true
 value:
   - percentage: 20
     option: true
