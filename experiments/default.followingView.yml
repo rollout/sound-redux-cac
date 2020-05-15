@@ -3,10 +3,4 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - property:
-      name: rox.screen_height
-      operator: lt
-      operand: 2121
-    value: true
 value: false
