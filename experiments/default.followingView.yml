@@ -5,6 +5,18 @@ name: following view
 flag: default.followingView
 conditions:
   - group:
+      operator: nor
+      name:
+        - DJ
+        - Beta Users
+    value: false
+  - group:
+      operator: and
+      name:
+        - DJ
+        - Beta Users
+    value: true
+  - group:
       name:
         - DJ
         - Beta Users
