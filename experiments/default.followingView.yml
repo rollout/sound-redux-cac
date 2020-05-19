@@ -4,11 +4,9 @@ type: experiment
 name: following view
 flag: default.followingView
 conditions:
-  - group:
-      operator: nor
-      name:
-        - DJ
-        - Beta Users
+  - dependency:
+      flag: default.refreshOnConifgurationChange
+      value: 'true'
     value: false
   - group:
       operator: and
