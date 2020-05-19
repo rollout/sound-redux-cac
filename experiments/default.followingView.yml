@@ -2,6 +2,7 @@
 # URL: https://app.rollout.io/ex/5ebebaa95746d05ee79932f9
 type: experiment
 name: following view
+stickinessProperty: url
 flag: default.followingView
 value:
   - percentage: 50
