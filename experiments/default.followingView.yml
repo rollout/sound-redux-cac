@@ -3,20 +3,6 @@
 type: experiment
 name: following view
 flag: default.followingView
-conditions:
-  - dependency:
-      flag: default.refreshOnConifgurationChange
-      value: 'true'
-    value: false
-  - group:
-      operator: and
-      name:
-        - DJ
-        - Beta Users
-    value: true
-  - group:
-      name:
-        - DJ
-        - Beta Users
-    value: false
-value: false
+value:
+  - percentage: 50
+    option: true
