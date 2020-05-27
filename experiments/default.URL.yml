@@ -1,0 +1,19 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eccdd71613e6c33d0a75d48
+type: experiment
+labels: backward-compatible-configuration
+flag: default.URL
+availableValues:
+  - 'https://google.com'
+  - 'http://bing.com'
+  - 'http://yahoo.com'
+platforms:
+  - name: Android
+    conditions:
+      - version:
+          operator: semver-eq
+          semver: '1.1'
+        group:
+          name: Beta Users
+        value: 'http://bing.com'
+    value: 'http://yahoo.com'

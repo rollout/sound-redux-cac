@@ -1,0 +1,14 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eccdc07613e6c33d0a7574d
+type: experiment
+labels: backward-compatible-configuration
+flag: default.GENRES
+availableValues:
+  - 'chill,deep,dubstep,house,progressive,tech,trance,tropical'
+  - AAA
+  - Hello world
+platforms:
+  - name: Browser
+    value: AAA
+  - name: Android
+    value: Hello world

@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eccdd6d613e6c33d0a75d38
+type: experiment
+labels: backward-compatible-configuration
+flag: default.URK
+availableValues:
+  - 'https://google.com'
+  - dsdsa
+platforms:
+  - name: Browser
+    value: dsdsa
