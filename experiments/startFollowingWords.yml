@@ -6,4 +6,11 @@ flag: startFollowingWords
 availableValues:
   - Watch Him
   - Start Following
-value: []
+  - Follow
+value:
+  - percentage: 33
+    option: Watch Him
+  - percentage: 33
+    option: Start Following
+  - percentage: 34
+    option: Follow
