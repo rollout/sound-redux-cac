@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ed658d982623680a4ce9b53
+type: experiment
+name: '123'
+flag: ekerne.123
+value: false
