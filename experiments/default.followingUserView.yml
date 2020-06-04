@@ -3,4 +3,4 @@
 type: experiment
 name: following user view
 flag: default.followingUserView
-value: true
+value: false
