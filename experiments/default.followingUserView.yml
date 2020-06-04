@@ -3,4 +3,14 @@
 type: experiment
 name: following user view
 flag: default.followingUserView
-value: true
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - US
+        - CN
+    value:
+      - percentage: 5
+        option: true
+value: false
