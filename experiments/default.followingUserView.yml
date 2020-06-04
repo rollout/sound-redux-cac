@@ -6,5 +6,5 @@ flag: default.followingUserView
 conditions:
   - group:
       name: DJ
-    value: true
-value: false
+    value: false
+value: true
