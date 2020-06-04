@@ -2,6 +2,9 @@
 # URL: https://app.rollout.io/ex/5ed67116826236a170ce9ba4
 type: experiment
 name: start following word
+description: >-
+  dsfsdfsfsd;lfk ;lskel;sdfjk salkfjewksdlfjs lkadfjsdlkfjdslkfjdsklfjasld
+  fkjdsaklfjdfjladskfjkdlsafjdslfjdlkfjklfjklsdafjksl
 flag: defaultEL.startFollowingWord
 availableValues:
   - Watch Him
