@@ -1,9 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed67116826236a170ce9ba4
-type: experiment
-name: start following word
-flag: defaultEL.startFollowingWord
-availableValues:
-  - Watch Him
-  - Start Following
-value: []
