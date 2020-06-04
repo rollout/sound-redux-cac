@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ed874e1cd99d6b317af3d7b
+type: experiment
+name: some new flag
+flag: SomeNewFlag
+value: false
