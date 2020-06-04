@@ -2,5 +2,6 @@
 # URL: https://app.rollout.io/ex/5ed907870f7bc14f6d9a2538
 type: experiment
 description: 'for QA '
+labels: hello
 flag: this is a new flag
 value: false
