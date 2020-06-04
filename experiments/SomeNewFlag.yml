@@ -3,4 +3,4 @@
 type: experiment
 name: some new flag
 flag: SomeNewFlag
-value: false
+value: true
