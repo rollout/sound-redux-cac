@@ -11,6 +11,6 @@ conditions:
         - US
         - CN
     value:
-      - percentage: 5
+      - percentage: 95
         option: true
 value: false
