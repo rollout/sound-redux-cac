@@ -1,6 +1,7 @@
 # This file was edited by rollout.io
 # URL: https://app.rollout.io/ex/5ed907870f7bc14f6d9a2538
 type: experiment
+name: QA ROX Override
 description: 'for QA '
 labels: hello
 flag: this is a new flag
