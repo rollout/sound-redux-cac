@@ -3,4 +3,9 @@
 type: experiment
 name: repeat
 flag: defaultEL.repeat
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: false
 value: true
