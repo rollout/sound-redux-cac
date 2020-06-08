@@ -4,6 +4,9 @@ type: experiment
 name: shuffle
 description: shuffle feature on the player
 flag: default.shuffle
+platforms:
+  - name: Browser
+    value: false
 conditions:
   - version:
       operator: semver-gte
