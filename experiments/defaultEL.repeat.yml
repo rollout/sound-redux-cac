@@ -3,4 +3,4 @@
 type: experiment
 name: repeat
 flag: defaultEL.repeat
-value: false
+value: true
