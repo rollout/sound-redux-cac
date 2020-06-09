@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ee009f94d4e82b47f0ef0a9
+type: experiment
+name: row likes
+flag: default.row_likes
+value: false
