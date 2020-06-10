@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed67116826236a170ce9ba4
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following word
 description: >-
@@ -9,4 +8,11 @@ flag: defaultEL.startFollowingWord
 availableValues:
   - Watch Him
   - Start Following
-value: []
+  - Follow
+value:
+  - percentage: 33
+    option: Watch Him
+  - percentage: 33
+    option: Start Following
+  - percentage: 34
+    option: Follow
