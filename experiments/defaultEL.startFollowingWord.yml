@@ -6,13 +6,7 @@ description: >-
   fkjdsaklfjdfjladskfjkdlsafjdslfjdlkfjklfjklsdafjksl
 flag: defaultEL.startFollowingWord
 availableValues:
-  - Watch Him
   - Start Following
+  - Watch Him
   - Follow
-value:
-  - percentage: 33
-    option: Watch Him
-  - percentage: 33
-    option: Start Following
-  - percentage: 34
-    option: Follow
+value: Start Following
