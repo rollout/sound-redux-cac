@@ -1,7 +1,6 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5eb04f48a7cf7a8d586b5360
+# This file was edited by Cloudbees Feature Flags
 type: experiment
-name: very long experiment name that will be cut by the system
+name: 'Feature Experiment: New Playlist Tracker'
 flag: Very long experiment name that will be cut by the system
 conditions:
   - group:
