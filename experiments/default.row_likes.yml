@@ -1,5 +1,5 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-name: Likes in Row
+name: row likes
 flag: default.row_likes
 value: false

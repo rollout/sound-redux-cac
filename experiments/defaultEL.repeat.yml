@@ -1,7 +1,6 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed874c2aa31905197a99a33
+# This file was edited by Cloudbees Feature Flags
 type: experiment
-name: repeat
+name: Repeat During Shuffle
 flag: defaultEL.repeat
 platforms:
   - name: Browser
