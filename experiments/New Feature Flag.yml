@@ -1,0 +1,5 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: new feature flag
+flag: New Feature Flag
+value: false
