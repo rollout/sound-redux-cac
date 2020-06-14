@@ -3,4 +3,4 @@ type: experiment
 name: new feature flag
 enabled: false
 flag: New Feature Flag
-value: false
+value: true
