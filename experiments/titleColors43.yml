@@ -1,8 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: title colors 43
-flag: titleColors43
-availableValues:
-  - Yellow
-  - ''
-value: []
