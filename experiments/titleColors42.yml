@@ -1,7 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: title colors 42
-description: Soem flag
+description: 'some flag '
 flag: titleColors42
 availableValues:
   - Yellow
