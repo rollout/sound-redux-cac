@@ -1,6 +1,6 @@
 type: target-group
 name: DJ
-description: The Amazing DJs we have
+description: 'The Amazing DJs we have, Yay!'
 operator: or
 conditions:
   - operator: gte
