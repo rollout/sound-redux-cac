@@ -1,8 +1,8 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5bd70c7eb8bff236d0f6cf54
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: shuffle
 description: shuffle feature on the player
+labels: Gradual Rollout
 flag: default.shuffle
 platforms:
   - name: Browser
