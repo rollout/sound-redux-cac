@@ -2,7 +2,9 @@
 type: experiment
 name: shuffle
 description: shuffle feature on the player
-labels: Gradual Rollout
+labels:
+  - Gradual Rollout
+  - sss
 flag: default.shuffle
 platforms:
   - name: Browser
