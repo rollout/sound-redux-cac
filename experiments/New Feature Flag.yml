@@ -1,7 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: new feature flag
-labels: 'report_to_analytics '
+labels: report_to_analytic
 enabled: false
 flag: New Feature Flag
 value: false
