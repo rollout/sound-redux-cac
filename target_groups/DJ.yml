@@ -1,6 +1,6 @@
 type: target-group
 name: DJ
-description: The Amazing DJs we have, unless you are a donkey, mo mo mo 
+description: The Amazing DJs we have
 operator: or
 conditions:
   - operator: gte
