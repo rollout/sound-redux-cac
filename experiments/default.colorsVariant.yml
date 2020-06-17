@@ -5,4 +5,11 @@ flag: default.colorsVariant
 availableValues:
   - green
   - blue
-value: []
+  - red
+value:
+  - percentage: 33
+    option: green
+  - percentage: 33
+    option: blue
+  - percentage: 34
+    option: red
