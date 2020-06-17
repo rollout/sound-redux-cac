@@ -5,4 +5,4 @@ operator: or
 conditions:
   - operator: gte
     property: playlist_count
-    operand: 100
+    operand: 1002
