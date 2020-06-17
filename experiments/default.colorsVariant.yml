@@ -3,13 +3,13 @@ type: experiment
 name: colors variant
 flag: default.colorsVariant
 availableValues:
+  - red
   - green
   - blue
-  - red
-value:
-  - percentage: 33
-    option: green
-  - percentage: 33
-    option: blue
-  - percentage: 34
-    option: red
+conditions:
+  - group:
+      name:
+        - DJ
+        - Bad Versions
+    value: red
+value: green
