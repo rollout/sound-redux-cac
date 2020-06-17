@@ -3,4 +3,4 @@ name: test
 conditions:
   - operator: regex
     property: last_name
-    operand: '1'
+    operand: '12'
