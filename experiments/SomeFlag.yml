@@ -3,4 +3,10 @@ type: experiment
 name: New IAM
 enabled: false
 flag: SomeFlag
-value: true
+conditions:
+  - group:
+      name:
+        - Beta Users
+        - Bad Versions
+    value: true
+value: false

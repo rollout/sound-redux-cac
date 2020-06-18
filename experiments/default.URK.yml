@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5eccdd6d613e6c33d0a75d38
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 labels: backward-compatible-configuration
 flag: default.URK
@@ -8,4 +7,8 @@ availableValues:
   - dsdsa
 platforms:
   - name: Browser
-    value: dsdsa
+    conditions:
+      - version:
+          operator: semver-gte
+          semver: '0.0'
+        value: dsdsa

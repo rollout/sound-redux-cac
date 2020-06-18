@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5eccdc07613e6c33d0a7574d
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 labels: backward-compatible-configuration
 flag: default.GENRES
@@ -9,6 +8,14 @@ availableValues:
   - Hello world
 platforms:
   - name: Browser
-    value: AAA
+    conditions:
+      - version:
+          operator: semver-gte
+          semver: '0.0'
+        value: AAA
   - name: Android
-    value: Hello world
+    conditions:
+      - version:
+          operator: semver-gte
+          semver: '122'
+        value: Hello world
