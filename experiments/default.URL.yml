@@ -4,7 +4,5 @@ labels: backward-compatible-configuration
 flag: default.URL
 availableValues:
   - 'https://nike.com'
-  - 'http://yahoo.com'
-  - 'https://google.com'
 platforms:
   - name: Android
