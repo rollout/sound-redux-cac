@@ -6,10 +6,4 @@ availableValues:
   - red
   - green
   - blue
-conditions:
-  - group:
-      name:
-        - DJ
-        - Bad Versions
-    value: red
 value: red
