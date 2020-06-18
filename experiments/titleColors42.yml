@@ -15,7 +15,7 @@ value:
     option: Yellow
   - percentage: 20
     option: Blue
-  - percentage: 30
+  - percentage: 20
     option: ''
-  - percentage: 10
+  - percentage: 20
     option: 'false'
