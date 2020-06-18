@@ -4,7 +4,6 @@ labels: backward-compatible-configuration
 flag: default.URL
 availableValues:
   - Something new
-  - 'https://nike.com'
 platforms:
   - name: Android
     value: Something new
