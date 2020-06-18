@@ -8,16 +8,3 @@ availableValues:
   - 'https://google.com'
 platforms:
   - name: Android
-    conditions:
-      - version:
-          operator: semver-eq
-          semver: '1.1'
-        group:
-          name: Beta Users
-        value: 'https://nike.com'
-      - version:
-          operator: semver-gte
-          semver: '1.1'
-        group:
-          name: DJ
-        value: 'http://yahoo.com'
