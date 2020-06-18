@@ -3,9 +3,9 @@ type: experiment
 labels: backward-compatible-configuration
 flag: default.URL
 availableValues:
-  - 'https://google.com'
   - 'http://bing.com'
   - 'http://yahoo.com'
+  - 'https://google.com'
 platforms:
   - name: Android
     conditions:
@@ -14,13 +14,7 @@ platforms:
           semver: '1.1'
         group:
           name: Beta Users
-        value:
-          - percentage: 33
-            option: 'https://google.com'
-          - percentage: 33
-            option: 'http://bing.com'
-          - percentage: 34
-            option: 'http://yahoo.com'
+        value: 'http://bing.com'
       - version:
           operator: semver-gte
           semver: '1.1'
