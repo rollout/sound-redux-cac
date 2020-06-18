@@ -14,7 +14,13 @@ platforms:
           semver: '1.1'
         group:
           name: Beta Users
-        value: 'http://bing.com'
+        value:
+          - percentage: 33
+            option: 'https://google.com'
+          - percentage: 33
+            option: 'http://bing.com'
+          - percentage: 34
+            option: 'http://yahoo.com'
       - version:
           operator: semver-gte
           semver: '1.1'
