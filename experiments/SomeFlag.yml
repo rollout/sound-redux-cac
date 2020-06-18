@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: New IAM
+enabled: false
 flag: SomeFlag
 value: true
