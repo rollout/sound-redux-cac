@@ -3,7 +3,5 @@ type: experiment
 name: colors variant
 flag: default.colorsVariant
 availableValues:
-  - red
   - green
   - blue
-value: red
