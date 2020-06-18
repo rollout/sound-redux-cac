@@ -8,4 +8,14 @@ availableValues:
   - Blue
   - ''
   - 'false'
-value: Green
+value:
+  - percentage: 20
+    option: Green
+  - percentage: 20
+    option: Yellow
+  - percentage: 20
+    option: Blue
+  - percentage: 30
+    option: ''
+  - percentage: 10
+    option: 'false'
