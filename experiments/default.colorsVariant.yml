@@ -7,10 +7,6 @@ availableValues:
   - blue
   - red
 conditions:
-  - value:
-      - percentage: 33
-        option: green
-      - percentage: 33
-        option: blue
-      - percentage: 34
-        option: red
+  - group:
+      name: DJ
+    value: green
