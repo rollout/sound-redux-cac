@@ -1,9 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: colors variant
-enabled: false
-flag: default.colorsVariant
-availableValues:
-  - green
-  - blue
-value: green
