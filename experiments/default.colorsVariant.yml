@@ -3,10 +3,10 @@ type: experiment
 name: colors variant
 flag: default.colorsVariant
 availableValues:
-  - green
+  - Gray
   - blue
   - red
 conditions:
   - group:
       name: DJ
-    value: green
+    value: Gray
