@@ -1,9 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: following component
-flag: default.followingComponent
-conditions:
-  - group:
-      name: DJ
-    value: true
-value: false
