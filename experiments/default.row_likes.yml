@@ -2,4 +2,6 @@
 type: experiment
 name: row likes
 flag: default.row_likes
+conditions:
+  - value: false
 value: true
