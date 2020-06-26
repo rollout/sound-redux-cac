@@ -4,5 +4,5 @@ name: new feature flag
 labels: report_to_analytic
 flag: New Feature Flag
 conditions:
-  - value: false
+  - value: true
 value: false
