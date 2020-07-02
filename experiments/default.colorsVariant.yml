@@ -3,6 +3,13 @@ type: experiment
 name: colors variant
 flag: default.colorsVariant
 availableValues:
-  - green
-  - blue
   - red
+  - blue
+  - green
+conditions:
+  - group:
+      name: Beta Users
+    value: red
+  - group:
+      name: DJ
+    value: blue
