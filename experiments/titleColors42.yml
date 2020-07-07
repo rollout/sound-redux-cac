@@ -9,6 +9,8 @@ availableValues:
   - Blue
   - ''
   - 'false'
+conditions:
+  - value: Yellow
 value:
   - percentage: 10
     option: Yellow
