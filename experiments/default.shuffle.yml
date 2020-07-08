@@ -5,7 +5,6 @@ description: shuffle feature on the player
 labels:
   - Gradual Rollout
   - sss
-enabled: false
 flag: default.shuffle
 platforms:
   - name: Browser
