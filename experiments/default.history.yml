@@ -2,4 +2,9 @@
 type: experiment
 name: history
 flag: default.history
+conditions:
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
+    value: true
 value: false
