@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: title colors 42
+labels: archived
 enabled: false
 flag: titleColors42
 availableValues:
