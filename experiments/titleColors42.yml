@@ -3,19 +3,7 @@ type: experiment
 name: title colors 42
 flag: titleColors42
 availableValues:
-  - Blue
-  - 'false'
   - Yellow
   - Green
+  - Blue
   - ''
-value:
-  - percentage: 10
-    option: 'false'
-  - percentage: 30
-    option: Yellow
-  - percentage: 20
-    option: Green
-  - percentage: 20
-    option: Blue
-  - percentage: 20
-    option: ''
