@@ -4,9 +4,9 @@ name: title colors 42
 enabled: false
 flag: titleColors42
 availableValues:
+  - Yellow
   - Green
   - Blue
-  - Yellow
   - ''
   - 'false'
-value: Green
+value: Yellow
