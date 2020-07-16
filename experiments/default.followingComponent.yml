@@ -1,7 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: following component
-flag: default.followingComponent
-value:
-  - percentage: 80
-    option: true
