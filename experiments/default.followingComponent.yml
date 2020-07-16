@@ -2,4 +2,6 @@
 type: experiment
 name: following component
 flag: default.followingComponent
-value: true
+value:
+  - percentage: 50
+    option: true
