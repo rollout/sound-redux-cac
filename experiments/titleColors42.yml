@@ -3,9 +3,9 @@ type: experiment
 name: title colors 42
 flag: titleColors42
 availableValues:
+  - ''
   - Yellow
   - Green
   - Blue
-  - ''
   - 'false'
-value: Yellow
+value: ''
