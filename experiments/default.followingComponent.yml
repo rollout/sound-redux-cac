@@ -2,4 +2,4 @@
 type: experiment
 name: following component
 flag: default.followingComponent
-value: false
+value: true
