@@ -1,0 +1,11 @@
+type: target-group
+name: Tenant1 Admin
+conditions:
+  - operator: in-array
+    property: type
+    operand:
+      - admin
+  - operator: in-array
+    property: tenant
+    operand:
+      - Tenant1
