@@ -6,8 +6,10 @@ availableValues:
   - red
   - blue
   - green
-conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'true'
-    value: red
+value:
+  - percentage: 33
+    option: red
+  - percentage: 33
+    option: blue
+  - percentage: 34
+    option: green
