@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5b7195bd03a52619ba689acc
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: playlist
 labels: stable_state_experiments
+enabled: false
 flag: default.playlist
 value: true
