@@ -2,9 +2,4 @@
 type: experiment
 enabled: false
 flag: Pay1
-conditions:
-  - dependency:
-      flag: Pay2
-      value: 'true'
-    value: true
 value: false
