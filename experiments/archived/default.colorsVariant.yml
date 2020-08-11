@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: colors variant
+labels: archived
 flag: default.colorsVariant
 availableValues:
   - red
