@@ -1,4 +1,9 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: Pay1
+conditions:
+  - dependency:
+      flag: Pay2
+      value: 'true'
+    value: true
 value: false
