@@ -2,4 +2,4 @@
 type: experiment
 name: new payment flow
 flag: NewPaymentFlow
-value: false
+value: true
