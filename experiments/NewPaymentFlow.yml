@@ -3,4 +3,6 @@ type: experiment
 name: new payment flow
 enabled: false
 flag: NewPaymentFlow
+conditions:
+  - value: false
 value: true
