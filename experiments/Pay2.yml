@@ -2,7 +2,4 @@
 type: experiment
 enabled: false
 flag: Pay2
-conditions:
-  - value: false
-  - value: false
 value: false
