@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+labels: archived
 flag: Pay2
 conditions:
   - dependency:
