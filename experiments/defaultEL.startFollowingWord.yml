@@ -1,10 +1,9 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5eb33f18d990087adbcd298f
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following word
+description: Soem flag description
 flag: defaultEL.startFollowingWord
 availableValues:
-  - Watch Him
   - Start Following
+  - Watch Him
   - Follow
-value: []
