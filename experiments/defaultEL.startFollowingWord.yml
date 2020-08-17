@@ -2,12 +2,19 @@
 type: experiment
 name: start following word
 description: main CTA on user page
-enabled: false
 flag: defaultEL.startFollowingWord
 availableValues:
   - Follow
   - Start Following
   - Watch Him
+conditions:
+  - value:
+      - percentage: 33
+        option: Follow
+      - percentage: 33
+        option: Start Following
+      - percentage: 34
+        option: Watch Him
 value:
   - percentage: 33
     option: Follow
