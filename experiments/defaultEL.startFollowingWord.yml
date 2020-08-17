@@ -4,6 +4,13 @@ name: start following word
 description: Soem flag description
 flag: defaultEL.startFollowingWord
 availableValues:
+  - Follow
   - Start Following
   - Watch Him
-  - Follow
+value:
+  - percentage: 33
+    option: Follow
+  - percentage: 33
+    option: Start Following
+  - percentage: 34
+    option: Watch Him
