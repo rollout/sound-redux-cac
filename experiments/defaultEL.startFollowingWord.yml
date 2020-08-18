@@ -4,11 +4,11 @@ name: start following word
 description: main CTA on user page
 flag: defaultEL.startFollowingWord
 availableValues:
-  - ''
+  - '30'
   - '10'
   - Follow
   - Start Following
   - Watch Him
 conditions:
-  - value: ''
+  - value: '30'
 value: '10'
