@@ -3,4 +3,6 @@ type: experiment
 description: Something
 enabled: false
 flag: AsafsFlag
-value: false
+value:
+  - percentage: 50
+    option: true
