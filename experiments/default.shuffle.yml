@@ -4,11 +4,4 @@ name: shuffle
 description: shuffle feature on the player
 enabled: false
 flag: default.shuffle
-conditions:
-  - version:
-      operator: semver-gte
-      semver: 1.2.3
-    value:
-      - percentage: 50
-        option: true
 value: false
