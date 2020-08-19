@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d49d1ffbcc466413a117911
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: comments
 labels: Gradual Rollout
@@ -9,10 +8,4 @@ platforms:
     value: false
   - name: NodeJS
     value: false
-conditions:
-  - group:
-      name: Beta Users
-    value:
-      - percentage: 55
-        option: true
 value: false
