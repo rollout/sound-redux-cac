@@ -1,9 +1,4 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: Pay2
-conditions:
-  - dependency:
-      flag: default.shuffle
-      value: 'true'
-    value: false
 value: false
