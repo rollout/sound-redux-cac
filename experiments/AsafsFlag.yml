@@ -1,7 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: Something
-enabled: false
 flag: AsafsFlag
 value:
   - percentage: 50
