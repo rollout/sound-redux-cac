@@ -1,14 +1,12 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following word
-description: main CTA on user page
+description: Soem flag description
 flag: defaultEL.startFollowingWord
 availableValues:
-  - '30'
-  - '10'
-  - Follow
   - Start Following
   - Watch Him
+  - Follow
 conditions:
   - value: '30'
 value: '10'
