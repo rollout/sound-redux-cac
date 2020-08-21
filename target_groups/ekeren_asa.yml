@@ -1,6 +1,0 @@
-type: target-group
-name: ekeren_asa
-conditions:
-  - operator: eq
-    property: rox.screen_height
-    operand: 2332
