@@ -1,7 +1,0 @@
-type: target-group
-name: Premium User
-conditions:
-  - operator: in-array
-    property: plan
-    operand:
-      - premium
