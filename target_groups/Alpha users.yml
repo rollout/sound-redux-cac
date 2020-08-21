@@ -1,6 +1,0 @@
-type: target-group
-name: Alpha users
-conditions:
-  - operator: regex
-    property: email
-    operand: '@cloudbees.com'
