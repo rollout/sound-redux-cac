@@ -9,4 +9,4 @@ platforms:
     value: false
   - name: NodeJS
     value: false
-value: false
+value: true
