@@ -1,7 +1,0 @@
-type: target-group
-name: Devada
-conditions:
-  - operator: in-array
-    property: brand
-    operand:
-      - '1'
