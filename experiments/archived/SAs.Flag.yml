@@ -1,4 +1,5 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+labels: archived
 flag: SAs.Flag
 value: true
