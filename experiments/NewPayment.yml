@@ -1,7 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: This flag can will present different CTA options
-enabled: false
 flag: NewPayment
 availableValues:
   - Pay
