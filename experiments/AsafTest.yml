@@ -3,4 +3,9 @@ type: experiment
 description: 'Asaf is a huge huge '
 enabled: false
 flag: AsafTest
+conditions:
+  - dependency:
+      flag: titleColors42
+      value: Blue
+    value: false
 value: false
