@@ -3,9 +3,4 @@ type: experiment
 description: 'Asaf is a huge huge '
 enabled: false
 flag: AsafTest
-conditions:
-  - dependency:
-      flag: AsafsFlag
-      value: 'true'
-    value: true
 value: false
