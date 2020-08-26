@@ -2,7 +2,6 @@
 type: experiment
 name: comments
 labels: Gradual Rollout
-enabled: false
 flag: default.comments
 platforms:
   - name: Browser
@@ -10,6 +9,10 @@ platforms:
   - name: NodeJS
     value: false
 conditions:
+  - dependency:
+      flag: dsfdf
+      value: dsfdsfdsf
+    value: false
   - group:
       name:
         - DJ
