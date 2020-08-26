@@ -2,6 +2,7 @@
 type: experiment
 name: comments
 labels: Gradual Rollout
+enabled: false
 flag: default.comments
 platforms:
   - name: Browser
@@ -11,7 +12,7 @@ platforms:
 conditions:
   - dependency:
       flag: dsfdf
-      value: dsfdsfdsf
+      value: dsfsfsfds
     value: false
   - group:
       name:
