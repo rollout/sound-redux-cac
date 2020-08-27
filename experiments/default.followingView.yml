@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: following view
+enabled: false
 flag: default.followingView
 conditions:
   - value: false
