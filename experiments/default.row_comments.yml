@@ -1,4 +1,4 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.row_comments
-value: false
+value: true
