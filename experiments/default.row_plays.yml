@@ -1,5 +1,4 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c2cd9a7d2b77a49cf30738e
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: row plays
 enabled: false
@@ -7,4 +6,4 @@ flag: default.row_plays
 platforms:
   - name: Browser
     value: false
-value: true
+value: false
