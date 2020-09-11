@@ -2,4 +2,7 @@
 type: experiment
 enabled: false
 flag: default.row_comments
+platforms:
+  - name: tizen
+    value: false
 value: true
