@@ -1,0 +1,22 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+enabled: false
+flag: titleColors42
+availableValues:
+  - Yellow
+  - Green
+  - Blue
+  - ''
+conditions:
+  - dependency:
+      flag: dsfdf
+      value: dsfdsfdsf
+    value:
+      - percentage: 25
+        option: Yellow
+      - percentage: 25
+        option: Green
+      - percentage: 25
+        option: Blue
+      - percentage: 25
+        option: ''
