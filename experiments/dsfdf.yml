@@ -1,0 +1,18 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+enabled: false
+flag: dsfdf
+availableValues:
+  - dsfsfsfds
+  - dsfsdfsdfsdf
+conditions:
+  - dependency:
+      flag: defaultEL.startFollowingWord
+      value: Watch Him
+    value:
+      - percentage: 33
+        option: dsfdsfdsf
+      - percentage: 33
+        option: dsfsfsfds
+      - percentage: 34
+        option: dsfsdfsdfsdf
