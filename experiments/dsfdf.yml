@@ -1,6 +1,5 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-enabled: false
 flag: dsfdf
 availableValues:
   - dsfdsfdsf
@@ -9,5 +8,5 @@ availableValues:
 conditions:
   - dependency:
       flag: defaultEL.startFollowingWord
-      value: Follow
+      value: Watch Him
     value: dsfdsfdsf
