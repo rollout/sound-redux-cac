@@ -4,10 +4,5 @@ name: justin test delete 2
 enabled: false
 flag: Justin_test_delete2
 conditions:
-  - property:
-      name: Justin_Test
-      operator: in-array
-      operand:
-        - Test
-    value: false
+  - value: false
 value: false
