@@ -3,6 +3,4 @@ type: experiment
 name: justin test delete 2
 enabled: false
 flag: Justin_test_delete2
-conditions:
-  - value: false
 value: false
