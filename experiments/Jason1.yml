@@ -2,6 +2,11 @@
 type: experiment
 enabled: false
 flag: Jason1
+conditions:
+  - dependency:
+      flag: default.shuffle
+      value: 'true'
+    value: true
 value:
   - percentage: 50
     option: true
