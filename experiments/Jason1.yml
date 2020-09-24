@@ -2,5 +2,5 @@
 type: experiment
 flag: Jason1
 value:
-  - percentage: 50
+  - percentage: 90
     option: true
