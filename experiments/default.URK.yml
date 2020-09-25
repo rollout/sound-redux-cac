@@ -4,12 +4,8 @@ labels: backward-compatible-configuration
 enabled: false
 flag: default.URK
 availableValues:
-  - 'https://google.com'
   - dsdsa
+  - 'https://google.com'
 platforms:
   - name: Browser
-    conditions:
-      - version:
-          operator: semver-gte
-          semver: '0.0'
-        value: dsdsa
+    value: dsdsa
