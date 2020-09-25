@@ -5,6 +5,7 @@ flag: default.URK
 availableValues:
   - dsdsa
   - 'https://google.com'
+  - yahoo.com
 platforms:
   - name: Browser
     value: dsdsa
