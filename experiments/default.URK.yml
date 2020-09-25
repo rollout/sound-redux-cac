@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 labels: backward-compatible-configuration
+enabled: false
 flag: default.URK
 availableValues:
   - 'https://google.com'
