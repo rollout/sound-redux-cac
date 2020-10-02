@@ -8,4 +8,12 @@ availableValues:
   - yahoo.com
 platforms:
   - name: Browser
+    conditions:
+      - value:
+          - percentage: 33
+            option: 'https://google.com'
+          - percentage: 33
+            option: dsdsa
+          - percentage: 34
+            option: yahoo.com
     value: 'https://google.com'
