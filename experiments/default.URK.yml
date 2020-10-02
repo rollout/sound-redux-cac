@@ -16,4 +16,4 @@ platforms:
             option: dsdsa
           - percentage: 34
             option: yahoo.com
-    value: 'https://google.com'
+    value: yahoo.com
