@@ -3,9 +3,9 @@ type: experiment
 labels: backward-compatible-configuration
 flag: default.URK
 availableValues:
-  - dsdsa
   - 'https://google.com'
+  - dsdsa
   - yahoo.com
 platforms:
   - name: Browser
-    value: dsdsa
+    value: 'https://google.com'
