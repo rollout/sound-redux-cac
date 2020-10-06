@@ -1,0 +1,6 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+flag: default.followingUserView
+value:
+  - percentage: 50
+    option: true
