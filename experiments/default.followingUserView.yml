@@ -1,4 +1,11 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.followingUserView
-value: true
+conditions:
+  - property:
+      name: user_email
+      operator: in-array
+      operand:
+        - bob@cloudbees.com
+    value: true
+value: false
