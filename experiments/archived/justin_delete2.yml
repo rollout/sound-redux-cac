@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+labels: archived
 enabled: false
 flag: justin_delete2
 value: true
