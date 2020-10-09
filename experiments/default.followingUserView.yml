@@ -1,6 +1,11 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.followingUserView
+platforms:
+  - name: Browser
+    value: false
+  - name: Android
+    value: false
 conditions:
   - property:
       name: user_email
