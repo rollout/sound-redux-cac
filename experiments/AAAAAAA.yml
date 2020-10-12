@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+description: 'Experiment: AAAAAAA'
 enabled: false
 flag: AAAAAAA
 availableValues:

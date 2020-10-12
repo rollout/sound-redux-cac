@@ -10,3 +10,4 @@ availableValues:
 platforms:
   - name: Browser
     value: yahoo.com
+  - name: stam1
