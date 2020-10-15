@@ -6,8 +6,4 @@ flag: defaultEL.repeat
 platforms:
   - name: Browser
     value: false
-  - name: tizen
-    value: false
-  - name: NodeJS
-    value: false
 value: true
