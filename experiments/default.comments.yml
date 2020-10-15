@@ -1,0 +1,32 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: comments
+description: 'Experiment: comments'
+labels: Gradual Rollout
+enabled: false
+flag: default.comments
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: true
+  - name: NodeJS
+    value: false
+  - name: Android
+    value: false
+  - name: Java
+    value: false
+  - name: stam1
+    value: false
+conditions:
+  - group:
+      name:
+        - DJ
+        - Beta Users
+    value: true
+  - property:
+      name: playlist_count
+      operator: lt
+      operand: 100
+    value: true
+value: false
