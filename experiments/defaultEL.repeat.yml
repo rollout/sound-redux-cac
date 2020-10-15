@@ -3,4 +3,11 @@ type: experiment
 name: Repeat During Shuffle
 description: 'Experiment: Repeat During Shuffle'
 flag: defaultEL.repeat
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: false
+  - name: NodeJS
+    value: false
 value: true
