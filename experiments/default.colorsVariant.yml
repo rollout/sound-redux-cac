@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5c87e17218d3656b1fe4a6cc
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: colors variant
+description: 'Experiment: colors variant'
 flag: default.colorsVariant
 availableValues:
   - red

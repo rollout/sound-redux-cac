@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5d5440eaf56eca4b470173eb
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: history
+description: 'Experiment: history'
 flag: default.history
 conditions:
   - group:

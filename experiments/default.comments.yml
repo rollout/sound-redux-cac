@@ -1,7 +1,9 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: comments
+description: 'Experiment: comments'
 labels: Gradual Rollout
+enabled: false
 flag: default.comments
 platforms:
   - name: Browser

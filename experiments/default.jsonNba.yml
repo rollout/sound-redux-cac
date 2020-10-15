@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5db84e5276a6c4160062d9db
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: json nba
+description: 'Experiment: json nba'
 enabled: false
 flag: default.jsonNba
 availableValues:
