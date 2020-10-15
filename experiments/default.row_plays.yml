@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: row plays
+description: 'Experiment: row plays'
+flag: default.row_plays
+platforms:
+  - name: Browser
+    value: false
+value:
+  - percentage: 45
+    option: true
