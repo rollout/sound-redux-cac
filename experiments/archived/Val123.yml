@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+description: 'Experiment: Val123'
 labels: archived
 enabled: false
 flag: Val123

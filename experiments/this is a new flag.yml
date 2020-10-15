@@ -1,8 +1,9 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed907870f7bc14f6d9a2538
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: QA ROX Override
-description: 'for QA '
+description: |-
+  for QA 
+  Experiment: QA ROX Override
 labels: hello
 flag: this is a new flag
 value: false

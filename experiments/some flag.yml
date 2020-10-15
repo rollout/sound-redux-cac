@@ -1,6 +1,6 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed9111e7f3a7c3972c092af
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: Playlist On Shuffle
+description: 'Experiment: Playlist On Shuffle'
 flag: some flag
 value: false

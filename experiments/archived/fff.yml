@@ -1,6 +1,6 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5e8e6761330dbd5f3cf004c2
+# This file was edited by Cloudbees Feature Flags
 type: experiment
+description: 'Experiment: fff'
 labels: archived
 flag: fff
 value: false

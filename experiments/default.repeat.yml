@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5e62853deab9e14cec4be530
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: repeat
+description: 'Experiment: repeat'
 flag: default.repeat
 conditions:
   - group:

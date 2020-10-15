@@ -1,7 +1,9 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following word
-description: Soem flag description
+description: |-
+  Soem flag description
+  Experiment: start following word
 flag: defaultEL.startFollowingWord
 availableValues:
   - Start Following

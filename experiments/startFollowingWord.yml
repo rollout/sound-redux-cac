@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following word
+description: 'Experiment: start following word'
 flag: startFollowingWord
 availableValues:
   - Watch Him

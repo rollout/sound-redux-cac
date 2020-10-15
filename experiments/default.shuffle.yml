@@ -1,7 +1,9 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: shuffle
-description: shuffle feature on the player
+description: |-
+  shuffle feature on the player
+  Experiment: shuffle
 labels:
   - Gradual Rollout
   - sss

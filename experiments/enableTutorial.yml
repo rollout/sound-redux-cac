@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: enable tutorial
+description: 'Experiment: enable tutorial'
 flag: enableTutorial
 value: false

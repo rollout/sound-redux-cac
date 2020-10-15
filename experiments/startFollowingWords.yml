@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed1e6a08bf1aeb4c2c23c05
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following words
+description: 'Experiment: start following words'
 enabled: false
 flag: startFollowingWords
 availableValues:

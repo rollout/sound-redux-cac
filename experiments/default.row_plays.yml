@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: row plays
+description: 'Experiment: row plays'
 enabled: false
 flag: default.row_plays
 platforms:

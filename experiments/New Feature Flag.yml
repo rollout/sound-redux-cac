@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: new feature flag
+description: 'Experiment: new feature flag'
 labels: report_to_analytic
 flag: New Feature Flag
 value:

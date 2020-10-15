@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: comments
+description: 'Experiment: comments'
 labels: Gradual Rollout
 enabled: false
 flag: default.comments
@@ -8,6 +9,10 @@ platforms:
   - name: Browser
     value: false
   - name: NodeJS
+    value: false
+  - name: tizen
+    value: false
+  - name: Android
     value: false
 conditions:
   - group:

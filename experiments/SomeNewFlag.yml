@@ -1,6 +1,6 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ed874e1cd99d6b317af3d7b
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: Stripe Payment Processor
+description: 'Experiment: Stripe Payment Processor'
 flag: SomeNewFlag
 value: true

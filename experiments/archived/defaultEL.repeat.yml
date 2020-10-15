@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: Repeat During Shuffle
+description: 'Experiment: Repeat During Shuffle'
 labels: archived
 flag: defaultEL.repeat
 platforms:

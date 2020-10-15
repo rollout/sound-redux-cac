@@ -1,7 +1,7 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5eb579e2ec43f52aa0fdef35
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: dans flag
+description: 'Experiment: dans flag'
 flag: default.dansFlag
 value:
   - from: 2020-05-08T20:52:39.250Z

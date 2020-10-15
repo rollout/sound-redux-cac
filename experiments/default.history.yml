@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: history
+description: 'Experiment: history'
 flag: default.history
 conditions:
   - value: false

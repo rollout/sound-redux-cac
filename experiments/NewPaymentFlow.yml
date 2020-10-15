@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: new payment flow
+description: 'Experiment: new payment flow'
 enabled: false
 flag: NewPaymentFlow
 conditions:
