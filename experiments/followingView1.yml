@@ -3,4 +3,9 @@ type: experiment
 description: fdsfsfsfsd
 enabled: false
 flag: followingView1
+platforms:
+  - name: Browser
+    value: false
+  - name: tizen
+    value: false
 value: false
