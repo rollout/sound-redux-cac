@@ -1,11 +1,10 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: fdsfsfsfsd
-enabled: false
 flag: followingView1
 platforms:
   - name: Browser
-    value: false
+    value: true
   - name: tizen
     value: false
 value: false
