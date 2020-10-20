@@ -7,4 +7,6 @@ platforms:
     value: true
   - name: tizen
     value: false
+  - name: NodeJS
+    value: false
 value: false
