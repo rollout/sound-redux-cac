@@ -3,10 +3,6 @@ type: experiment
 description: fdsfsfsfsd
 flag: followingView1
 platforms:
-  - name: Browser
-    value: true
-  - name: tizen
-    value: false
-  - name: NodeJS
+  - name: NewP
     value: false
 value: false
