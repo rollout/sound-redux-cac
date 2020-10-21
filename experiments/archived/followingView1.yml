@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: fdsfsfsfsd
+labels: archived
 flag: followingView1
 platforms:
   - name: NewP
