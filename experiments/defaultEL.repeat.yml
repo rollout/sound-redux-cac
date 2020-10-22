@@ -6,4 +6,4 @@ flag: defaultEL.repeat
 platforms:
   - name: Browser
     value: false
-value: true
+value: false
