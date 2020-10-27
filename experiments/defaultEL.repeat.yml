@@ -2,8 +2,13 @@
 type: experiment
 name: Repeat During Shuffle
 description: 'Experiment: Repeat During Shuffle'
+enabled: false
 flag: defaultEL.repeat
 platforms:
   - name: Browser
+    value: false
+conditions:
+  - group:
+      name: QA
     value: false
 value: false
