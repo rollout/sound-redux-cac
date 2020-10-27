@@ -2,6 +2,7 @@
 type: experiment
 name: 'Feature Experiment: New Playlist Tracker'
 description: 'Experiment: Feature Experiment: New Playlist Tracker'
+enabled: false
 flag: Very long experiment name that will be cut by the system
 conditions:
   - group:
