@@ -15,8 +15,3 @@ platforms:
           semver: '0.0'
         value: AAA
   - name: Android
-    conditions:
-      - version:
-          operator: semver-gte
-          semver: '122'
-        value: Hello world
