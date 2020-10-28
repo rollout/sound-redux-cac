@@ -13,4 +13,5 @@ platforms:
           operator: semver-gte
           semver: '0.0'
         value: AAA
+    value: ''
   - name: Android
