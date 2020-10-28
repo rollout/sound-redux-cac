@@ -8,9 +8,4 @@ availableValues:
   - ''
 platforms:
   - name: Browser
-    conditions:
-      - version:
-          operator: semver-gte
-          semver: '0.0'
-        value: AAA
     value: ''
