@@ -4,9 +4,8 @@ description: 'Experiment: default.GENRES'
 labels: backward-compatible-configuration
 flag: default.GENRES
 availableValues:
-  - 'chill,deep,dubstep,house,progressive,tech,trance,tropical'
   - AAA
-  - Hello world
+  - ''
 platforms:
   - name: Browser
     conditions:
