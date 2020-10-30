@@ -3,8 +3,6 @@ type: experiment
 name: repeat
 description: 'Experiment: repeat'
 flag: default.repeat
-conditions:
-  - value: true
 value:
   - from: 2020-10-30T18:35:28.594Z
     percentage: 0
