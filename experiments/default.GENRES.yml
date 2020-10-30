@@ -2,15 +2,10 @@
 type: experiment
 description: 'Experiment: default.GENRES'
 labels: backward-compatible-configuration
-enabled: false
 flag: default.GENRES
 availableValues:
   - AAA
   - ''
 platforms:
   - name: Browser
-    value:
-      - percentage: 90
-        option: AAA
-      - percentage: 10
-        option: ''
+    value: AAA
