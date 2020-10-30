@@ -4,7 +4,7 @@ description: 'Experiment: default.pricing'
 enabled: false
 flag: default.pricing
 availableValues:
-  - med
   - free
+  - med
   - high
-value: med
+value: free
