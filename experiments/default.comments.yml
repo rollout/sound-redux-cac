@@ -29,4 +29,4 @@ conditions:
       operator: lt
       operand: 100
     value: true
-value: true
+value: false
