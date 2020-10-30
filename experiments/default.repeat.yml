@@ -2,6 +2,5 @@
 type: experiment
 name: repeat
 description: 'Experiment: repeat'
-labels: archived
 flag: default.repeat
 value: false
