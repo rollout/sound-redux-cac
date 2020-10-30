@@ -5,4 +5,5 @@ flag: default.pricing
 availableValues:
   - high
   - free
-value: free
+  - med
+value: high
