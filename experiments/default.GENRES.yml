@@ -9,3 +9,8 @@ availableValues:
   - ''
 platforms:
   - name: Browser
+    value:
+      - percentage: 10
+        option: AAA
+      - percentage: 90
+        option: ''
