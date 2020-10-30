@@ -2,7 +2,9 @@
 type: experiment
 name: comments
 description: 'Experiment: comments'
-labels: Gradual Rollout
+labels:
+  - Gradual Rollout
+  - archived
 enabled: false
 flag: default.comments
 platforms:
