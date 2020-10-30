@@ -6,4 +6,8 @@ availableValues:
   - dsfsfsfds
   - dsfsdfsdfsdf
   - dsfdsfdsf
-value: dsfsfsfds
+conditions:
+  - dependency:
+      flag: defaultEL.startFollowingWord
+      value: Watch Him
+    value: dsfsfsfds
