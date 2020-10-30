@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: 'Experiment: default.pricing'
+labels: archived
 enabled: false
 flag: default.pricing
 availableValues:
