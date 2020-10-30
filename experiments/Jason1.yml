@@ -2,6 +2,4 @@
 type: experiment
 description: 'Experiment: Jason1'
 flag: Jason1
-conditions:
-  - value: false
 value: true
