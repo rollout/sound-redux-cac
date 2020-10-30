@@ -3,7 +3,7 @@ type: experiment
 description: 'Experiment: default.pricing'
 flag: default.pricing
 availableValues:
+  - med
   - free
   - high
-  - med
-value: free
+value: med
