@@ -1,13 +1,15 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 description: 'Experiment: dsfdf'
+enabled: false
 flag: dsfdf
 availableValues:
   - dsfdsfdsf
-  - dsfsfsfds
   - dsfsdfsdfsdf
+  - dsfsfsfds
 conditions:
   - dependency:
       flag: defaultEL.startFollowingWord
       value: Watch Him
     value: dsfdsfdsf
+value: dsfsdfsdfsdf
