@@ -5,7 +5,7 @@ labels: archived
 enabled: false
 flag: default.pricing
 availableValues:
+  - free
   - high
   - med
-  - free
-value: high
+value: free
