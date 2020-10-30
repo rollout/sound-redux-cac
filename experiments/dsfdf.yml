@@ -3,11 +3,11 @@ type: experiment
 description: 'Experiment: dsfdf'
 flag: dsfdf
 availableValues:
+  - dsfdsfdsf
   - dsfsfsfds
   - dsfsdfsdfsdf
-  - dsfdsfdsf
 conditions:
   - dependency:
       flag: defaultEL.startFollowingWord
       value: Watch Him
-    value: dsfsfsfds
+    value: dsfdsfdsf
