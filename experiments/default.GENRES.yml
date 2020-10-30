@@ -10,7 +10,7 @@ availableValues:
 platforms:
   - name: Browser
     value:
-      - percentage: 50
+      - percentage: 90
         option: AAA
-      - percentage: 50
+      - percentage: 10
         option: ''
