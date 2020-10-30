@@ -3,6 +3,6 @@ type: experiment
 name: repeat
 description: 'Experiment: repeat'
 flag: default.repeat
-value:
-  - percentage: 20
-    option: true
+conditions:
+  - value: true
+value: false
