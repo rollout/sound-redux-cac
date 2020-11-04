@@ -8,3 +8,4 @@ availableValues:
   - AAA
 platforms:
   - name: Browser
+    value: ''
