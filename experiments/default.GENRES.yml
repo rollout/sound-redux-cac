@@ -4,7 +4,7 @@ description: 'Experiment: default.GENRES'
 labels: backward-compatible-configuration
 flag: default.GENRES
 availableValues:
-  - AAA
   - ''
+  - AAA
 platforms:
   - name: Browser
