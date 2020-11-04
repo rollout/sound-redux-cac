@@ -2,4 +2,4 @@
 type: experiment
 enabled: false
 flag: followingView7
-value: true
+value: false
