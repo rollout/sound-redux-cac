@@ -7,7 +7,6 @@ availableValues:
   - Yellow
   - Blue
   - Green
-  - 'false'
 conditions:
   - dependency:
       flag: dsfdf
