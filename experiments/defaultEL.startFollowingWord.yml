@@ -6,7 +6,6 @@ description: |-
   Experiment: start following word
 flag: defaultEL.startFollowingWord
 availableValues:
-  - Start Following
-  - Watch Him
+  - '10'
   - Follow
 value: '10'
