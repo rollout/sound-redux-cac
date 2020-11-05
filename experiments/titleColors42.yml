@@ -9,7 +9,6 @@ availableValues:
   - Blue
   - Green
 conditions:
-  - value: Yellow
   - dependency:
       flag: dsfdf
       value: dsfdsfdsf
