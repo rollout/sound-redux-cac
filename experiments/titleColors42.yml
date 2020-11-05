@@ -4,11 +4,11 @@ description: 'Experiment: titleColors42'
 enabled: false
 flag: titleColors42
 availableValues:
-  - Yellow
+  - Orange
   - Blue
   - Green
 conditions:
   - dependency:
       flag: dsfdf
       value: dsfdsfdsf
-    value: Yellow
+    value: Orange
