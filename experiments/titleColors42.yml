@@ -5,9 +5,8 @@ enabled: false
 flag: titleColors42
 availableValues:
   - Yellow
-  - Green
   - Blue
-  - ''
+  - Green
   - 'false'
 conditions:
   - dependency:
