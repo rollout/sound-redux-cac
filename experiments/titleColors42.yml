@@ -8,16 +8,9 @@ availableValues:
   - Green
   - Blue
   - ''
+  - 'false'
 conditions:
   - dependency:
       flag: dsfdf
       value: dsfdsfdsf
-    value:
-      - percentage: 25
-        option: Yellow
-      - percentage: 25
-        option: Green
-      - percentage: 25
-        option: Blue
-      - percentage: 25
-        option: ''
+    value: Yellow
