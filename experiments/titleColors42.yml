@@ -8,8 +8,3 @@ availableValues:
   - Orange
   - Blue
   - Green
-conditions:
-  - dependency:
-      flag: dsfdf
-      value: dsfdsfdsf
-    value: Orange
