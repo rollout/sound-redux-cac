@@ -9,6 +9,4 @@ availableValues:
   - Start Following
   - Watch Him
   - Follow
-conditions:
-  - value: '30'
 value: '10'
