@@ -1,4 +1,4 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: followingView2
-value: false
+value: true
