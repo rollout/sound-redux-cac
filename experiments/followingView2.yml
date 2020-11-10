@@ -1,4 +1,8 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+description: >-
+  Something Something Something Something Something Something Something
+  Something Something Something Something Something Something Something
+  Something Something Something Something Something Something 
 flag: followingView2
 value: true
