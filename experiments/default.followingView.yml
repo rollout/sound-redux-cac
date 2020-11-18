@@ -5,7 +5,7 @@ description: 'Experiment: following view'
 labels: report_to_mixpanel
 flag: default.followingView
 conditions:
-  - value: false
+  - value: true
   - dependency:
       flag: default.playlist
       value: 'true'
