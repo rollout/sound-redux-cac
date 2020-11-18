@@ -3,4 +3,4 @@ type: experiment
 name: playlist
 description: 'Experiment: playlist'
 flag: default.playlist
-value: true
+value: false
