@@ -1,5 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-enabled: false
-flag: followingView2
-value: true
