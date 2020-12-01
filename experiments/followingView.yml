@@ -2,5 +2,6 @@
 type: experiment
 name: following view
 description: 'Experiment: following view'
+enabled: false
 flag: followingView
 value: false
