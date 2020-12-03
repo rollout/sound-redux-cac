@@ -3,6 +3,7 @@ type: experiment
 description: |-
   Something
   Experiment: AsafsFlag
+labels: archived
 enabled: false
 flag: AsafsFlag
 value: false

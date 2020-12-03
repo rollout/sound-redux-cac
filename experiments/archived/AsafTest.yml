@@ -3,6 +3,7 @@ type: experiment
 description: |-
   Asaf is a huge huge 
   Experiment: AsafTest
+labels: archived
 enabled: false
 flag: AsafTest
 conditions:
