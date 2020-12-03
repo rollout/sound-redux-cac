@@ -5,4 +5,21 @@ description: 'Experiment: playlist'
 labels: stable_state_experiments
 enabled: false
 flag: default.playlist
-value: true
+conditions:
+  - group:
+      name:
+        - Beta Users
+        - Internal emp
+        - QA
+    value: true
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - US
+        - UK
+        - AZ
+    value:
+      - percentage: 10
+        option: true
+value: false
