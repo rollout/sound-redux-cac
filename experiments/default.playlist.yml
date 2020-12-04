@@ -3,7 +3,6 @@ type: experiment
 name: playlist
 description: 'Experiment: playlist'
 labels: stable_state_experiments
-enabled: false
 flag: default.playlist
 conditions:
   - group:
