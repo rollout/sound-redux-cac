@@ -7,3 +7,4 @@ availableValues:
 platforms:
   - name: Android
   - name: Java
+  - name: NodeJS
