@@ -2,6 +2,7 @@
 type: experiment
 name: row plays
 description: 'Experiment: row plays'
+enabled: false
 flag: default.row_plays
 platforms:
   - name: Browser
