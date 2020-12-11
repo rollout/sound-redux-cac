@@ -1,8 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: repeat
-description: 'Experiment: repeat'
-flag: default.repeat
-value:
-  - percentage: 10
-    option: true

@@ -1,8 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: dans flag
-description: |-
-  Hi everyone
-  Experiment: dans flag
-flag: default.dansFlag
-value: false
