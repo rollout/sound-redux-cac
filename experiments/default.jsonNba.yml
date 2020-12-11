@@ -1,7 +1,9 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-enabled: false
 flag: default.jsonNba
 availableValues:
   - j3
   - j2
+platforms:
+  - name: Android
+  - name: Java
