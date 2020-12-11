@@ -3,6 +3,7 @@ type: experiment
 name: Repeat During Shuffle
 description: 'Experiment: Repeat During Shuffle'
 labels: archived
+enabled: false
 flag: defaultEL.repeat
 platforms:
   - name: Browser
