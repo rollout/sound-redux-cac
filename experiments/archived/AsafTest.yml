@@ -6,9 +6,4 @@ description: |-
 labels: archived
 enabled: false
 flag: AsafTest
-conditions:
-  - dependency:
-      flag: titleColors42
-      value: Blue
-    value: false
 value: false
