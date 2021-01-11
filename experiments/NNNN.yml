@@ -1,5 +1,10 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
+description: >-
+  Something Something Something Something Something Something Something
+  Something Something Something Something Something Something Something
+  Something Something Something Something Something Something Something
+  Something Something Something Something Something 
 enabled: false
 flag: NNNN
 value: false
