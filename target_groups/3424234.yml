@@ -1,0 +1,6 @@
+type: target-group
+name: '3424234'
+conditions:
+  - operator: gt
+    property: playlist_count
+    operand: 324234
