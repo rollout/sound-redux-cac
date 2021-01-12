@@ -3,6 +3,9 @@ type: experiment
 enabled: false
 flag: TestingFollwoing2020
 availableValues:
+  - '89'
   - ''
   - B
   - A
+conditions:
+  - value: '89'
