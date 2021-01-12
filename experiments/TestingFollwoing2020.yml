@@ -7,5 +7,3 @@ availableValues:
   - ''
   - B
   - A
-conditions:
-  - value: '89'
