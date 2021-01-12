@@ -3,5 +3,7 @@ type: experiment
 enabled: false
 flag: TestingFollwoing2020
 availableValues:
+  - '21'
   - A
   - B
+value: '21'
