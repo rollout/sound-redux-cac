@@ -4,3 +4,4 @@ enabled: false
 flag: TestingFollwoing2020
 availableValues:
   - B
+  - A
