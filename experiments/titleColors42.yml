@@ -4,3 +4,6 @@ description: 'Experiment: titleColors42'
 flag: titleColors42
 availableValues:
   - Orange
+  - Blue
+  - Yellow
+  - Red
