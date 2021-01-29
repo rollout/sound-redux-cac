@@ -1,5 +1,13 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-enabled: false
 flag: default.row_plays
-value: false
+value:
+  - from: 2021-01-29T18:37:04.511Z
+    percentage: 0
+    option: true
+  - from: 2021-01-30T08:00:00.000Z
+    percentage: 10
+    option: true
+  - from: 2021-01-31T08:00:00.000Z
+    percentage: 100
+    option: true
