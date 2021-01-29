@@ -2,9 +2,10 @@
 type: experiment
 flag: default.row_plays
 conditions:
-  - property:
-      name: playlist_count
-      operator: gte
-      operand: 10
+  - group:
+      name:
+        - Internal emp
+        - Beta Users
     value: true
+  - value: false
 value: false
