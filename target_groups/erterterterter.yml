@@ -1,0 +1,6 @@
+type: target-group
+name: erterterterter
+conditions:
+  - operator: ne
+    property: last_name
+    operand: retertre

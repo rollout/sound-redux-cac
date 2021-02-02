@@ -1,0 +1,6 @@
+type: target-group
+name: ggdgerg
+conditions:
+  - operator: ne
+    property: last_name
+    operand: tretre
