@@ -11,6 +11,7 @@ conditions:
       operator: in-array
       operand:
         - erez@aol.com
+        - dfggdfgfdgdfg
     value: ''
   - group:
       name: QA
