@@ -1,4 +1,11 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.row_plays
+conditions:
+  - property:
+      name: plan
+      operator: in-array
+      operand:
+        - a
+    value: false
 value: false
