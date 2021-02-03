@@ -1,17 +1,4 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.row_plays
-conditions:
-  - property:
-      name: playlist_count
-      operator: lte
-      operand: 10
-    value: true
-  - group:
-      name:
-        - Internal emp
-        - Beta Users
-    value:
-      - percentage: 10
-        option: true
 value: false
