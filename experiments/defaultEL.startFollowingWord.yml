@@ -8,3 +8,8 @@ flag: defaultEL.startFollowingWord
 availableValues:
   - Dan
   - Follow
+value:
+  - percentage: 11
+    option: Dan
+  - percentage: 89
+    option: Follow
