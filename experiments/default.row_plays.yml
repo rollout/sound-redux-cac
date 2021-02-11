@@ -8,4 +8,11 @@ conditions:
       operand:
         - erez@rollout.io
     value: true
+  - group:
+      name:
+        - Beta Users
+        - Internal emp
+    value:
+      - percentage: 10
+        option: true
 value: false
