@@ -9,7 +9,7 @@ availableValues:
   - Dan
   - Follow
 value:
-  - percentage: 11
+  - percentage: 50
     option: Dan
-  - percentage: 89
+  - percentage: 50
     option: Follow
