@@ -2,17 +2,8 @@
 type: experiment
 flag: default.row_plays
 conditions:
-  - property:
-      name: user_email
-      operator: in-array
-      operand:
-        - erez@rollout.io
+  - dependency:
+      flag: defaultEL.startFollowingWord
+      value: Dan
     value: true
-  - group:
-      name:
-        - Beta Users
-        - Internal emp
-    value:
-      - percentage: 10
-        option: true
 value: false
