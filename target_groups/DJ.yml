@@ -1,8 +1,9 @@
 type: target-group
 name: DJ
 description: The Amazing DJs we have
-operator: or
 conditions:
+  - operator: is-undefined
+    property: plan
   - operator: gte
     property: playlist_count
     operand: 1010
