@@ -1,4 +1,11 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: default.row_plays
+conditions:
+  - property:
+      name: user_email
+      operator: in-array
+      operand:
+        - erez@rollout.io
+    value: true
 value: false
