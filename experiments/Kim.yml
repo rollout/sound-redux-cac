@@ -1,6 +1,5 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-labels: archived
 flag: Kim
 platforms:
   - name: Browser
