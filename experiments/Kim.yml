@@ -3,5 +3,7 @@ type: experiment
 flag: Kim
 platforms:
   - name: Browser
-    value: false
+    value:
+      - percentage: 50
+        option: true
 value: true
