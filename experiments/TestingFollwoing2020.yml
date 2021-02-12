@@ -1,9 +1,12 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-enabled: false
 flag: TestingFollwoing2020
 availableValues:
   - '21'
   - A
   - B
-value: '21'
+conditions:
+  - dependency:
+      flag: NewPaymentFlow
+      value: 'true'
+    value: A
