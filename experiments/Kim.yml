@@ -1,4 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: Kim
-value: false
+platforms:
+  - name: Browser
+    value: false
+value: true
