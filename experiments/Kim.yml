@@ -6,4 +6,9 @@ platforms:
     value:
       - percentage: 50
         option: true
+conditions:
+  - dependency:
+      flag: Example
+      value: 'true'
+    value: true
 value: true
