@@ -4,7 +4,5 @@ enabled: false
 flag: Kim
 platforms:
   - name: Browser
-    value:
-      - percentage: 50
-        option: true
+    value: false
 value: true
