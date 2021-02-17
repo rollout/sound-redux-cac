@@ -2,6 +2,10 @@
 type: experiment
 flag: default.row_plays
 conditions:
+  - dependency:
+      flag: startFollowingWord
+      value: Follow
+    value: true
   - property:
       name: user_email
       operator: in-array
