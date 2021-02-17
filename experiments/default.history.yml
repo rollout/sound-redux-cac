@@ -2,6 +2,7 @@
 type: experiment
 name: history
 description: 'Experiment: history'
+enabled: false
 flag: default.history
 conditions:
   - value: false
