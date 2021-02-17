@@ -6,10 +6,12 @@ conditions:
       flag: startFollowingWord
       value: Follow
     value: true
-  - property:
-      name: user_email
-      operator: in-array
-      operand:
-        - erez@cloiudbees.com
-    value: true
+  - group:
+      name:
+        - Beta Users
+        - QA
+        - Internal emp
+    value:
+      - percentage: 49
+        option: true
 value: false
