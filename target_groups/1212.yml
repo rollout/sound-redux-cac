@@ -1,0 +1,7 @@
+type: target-group
+name: '1212'
+conditions:
+  - operator: in-array
+    property: country
+    operand:
+      - '21212'
