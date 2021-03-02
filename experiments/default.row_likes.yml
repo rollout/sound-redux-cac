@@ -1,10 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: row likes
-description: |-
-  Experiment: row likes
-
-  trewtteteter 
+description: 'Experiment: row likes'
 flag: default.row_likes
 conditions:
   - value: false
