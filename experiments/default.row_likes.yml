@@ -3,9 +3,6 @@ type: experiment
 name: row likes
 description: 'Experiment: row likes'
 flag: default.row_likes
-platforms:
-  - name: NodeJS
-    value: false
 conditions:
   - value: false
 value: true
