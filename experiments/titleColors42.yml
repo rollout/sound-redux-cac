@@ -2,4 +2,6 @@
 type: experiment
 description: 'Experiment: titleColors42'
 flag: titleColors42
-availableValues: []
+availableValues:
+  - ''
+  - T1
