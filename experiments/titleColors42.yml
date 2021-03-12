@@ -2,18 +2,4 @@
 type: experiment
 description: 'Experiment: titleColors42'
 flag: titleColors42
-availableValues:
-  - ''
-  - Something
-conditions:
-  - property:
-      name: user_email
-      operator: in-array
-      operand:
-        - erez@aol.com
-        - dfggdfgfdgdfg
-    value: ''
-  - group:
-      name: QA
-    value: null
-value: Something
+availableValues: []
