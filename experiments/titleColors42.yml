@@ -5,3 +5,15 @@ flag: titleColors42
 availableValues:
   - ''
   - T1
+conditions:
+  - property:
+      name: country
+      operator: in-array
+      operand:
+        - sas
+        - sasas
+    value:
+      - percentage: 50
+        option: ''
+      - percentage: 50
+        option: T1
