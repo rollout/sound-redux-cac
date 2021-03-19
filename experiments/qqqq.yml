@@ -1,13 +1,13 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: qqqq
-value:
-  - from: 2021-03-19T15:52:45.288Z
-    percentage: 0
-    option: true
-  - from: 2021-03-22T07:00:00.000Z
-    percentage: 10
-    option: true
-  - from: 2021-03-31T07:00:00.000Z
-    percentage: 100
-    option: true
+conditions:
+  - property:
+      name: user_email
+      operator: in-array
+      operand:
+        - dfsdfe
+        - sdffdsfd
+        - fsddfs
+    value: true
+value: false
