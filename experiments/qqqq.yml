@@ -2,6 +2,14 @@
 type: experiment
 flag: qqqq
 conditions:
+  - group:
+      name:
+        - Beta Users
+        - Internal emp
+        - 'Internal Testing #2'
+    value:
+      - percentage: 90
+        option: true
   - property:
       name: user_email
       operator: in-array
