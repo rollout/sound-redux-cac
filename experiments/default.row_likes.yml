@@ -4,5 +4,9 @@ name: row likes
 description: 'Experiment: row likes'
 flag: default.row_likes
 conditions:
-  - value: false
-value: true
+  - value:
+      - percentage: 25
+        option: true
+value:
+  - percentage: 50
+    option: true
