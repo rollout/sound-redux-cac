@@ -1,8 +1,10 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 name: following view
 description: 'Experiment: following view'
-labels: report_to_mixpanel
+labels:
+  - report_to_mixpanel
+enabled: false
 flag: default.followingView
 conditions:
   - dependency:

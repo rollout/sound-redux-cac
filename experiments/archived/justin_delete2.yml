@@ -1,7 +1,8 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: justin_delete2'
-labels: archived
+labels:
+  - archived
 enabled: false
 flag: justin_delete2
 value: true
