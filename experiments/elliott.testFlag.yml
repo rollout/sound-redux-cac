@@ -1,7 +1,7 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 labels:
-  - report_to_analytic
+  - AB
 enabled: false
 flag: elliott.testFlag
 value: false
