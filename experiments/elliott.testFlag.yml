@@ -1,6 +1,5 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-description: test
 labels:
   - AB
 enabled: false
