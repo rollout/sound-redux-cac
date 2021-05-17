@@ -1,5 +1,7 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
+labels:
+  - AB
 enabled: false
 flag: elliott.testFlag
 value: false
