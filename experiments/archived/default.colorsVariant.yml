@@ -1,8 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 name: colors variant
 description: 'Experiment: colors variant'
-labels: archived
+labels:
+  - archived
 flag: default.colorsVariant
 availableValues:
   - red

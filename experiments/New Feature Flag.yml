@@ -1,8 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 name: new feature flag
 description: 'Experiment: new feature flag'
-labels: report_to_analytic
+labels:
+  - report_to_analytic
 flag: New Feature Flag
 value:
   - from: 2020-06-17T14:56:19.608Z

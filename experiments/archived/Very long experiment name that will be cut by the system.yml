@@ -1,8 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 name: 'Feature Experiment: New Playlist Tracker'
 description: 'Experiment: Feature Experiment: New Playlist Tracker'
-labels: archived
+labels:
+  - archived
 flag: Very long experiment name that will be cut by the system
 conditions:
   - property:

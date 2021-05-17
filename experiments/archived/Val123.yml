@@ -1,7 +1,8 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: Val123'
-labels: archived
+labels:
+  - archived
 enabled: false
 flag: Val123
 availableValues:

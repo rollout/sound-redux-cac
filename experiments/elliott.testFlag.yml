@@ -1,10 +1,8 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-description: |-
-  Something
-  Experiment: AsafsFlag
+description: testDescription
 labels:
-  - archived
+  - AB
 enabled: false
-flag: AsafsFlag
+flag: elliott.testFlag
 value: false

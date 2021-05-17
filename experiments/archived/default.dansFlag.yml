@@ -1,8 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 name: dans flag
 description: 'Experiment: dans flag'
-labels: archived
+labels:
+  - archived
 flag: default.dansFlag
 value:
   - from: 2020-05-08T20:52:39.250Z

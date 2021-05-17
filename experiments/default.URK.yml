@@ -1,11 +1,12 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: default.URK'
-labels: backward-compatible-configuration
+labels:
+  - backward-compatible-configuration
 enabled: false
 flag: default.URK
 availableValues:
-  - 'https://google.com'
+  - https://google.com
   - dsdsa
   - yahoo.com
 platforms:

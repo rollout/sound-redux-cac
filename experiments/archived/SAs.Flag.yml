@@ -1,6 +1,7 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: SAs.Flag'
-labels: archived
+labels:
+  - archived
 flag: SAs.Flag
 value: true

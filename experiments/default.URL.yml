@@ -1,7 +1,8 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: default.URL'
-labels: backward-compatible-configuration
+labels:
+  - backward-compatible-configuration
 flag: default.URL
 availableValues:
   - Something new
