@@ -1,0 +1,9 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: shuffle
+description: |-
+  shuffle feature on the player
+  Experiment: shuffle
+enabled: false
+flag: default.shuffle
+value: false

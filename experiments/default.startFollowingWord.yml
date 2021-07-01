@@ -1,0 +1,12 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: start following word
+description: |-
+  String based flag
+  Experiment: start following word
+flag: default.startFollowingWord
+availableValues:
+  - Follow
+  - Start Following
+  - Watch Him
+value: Follow

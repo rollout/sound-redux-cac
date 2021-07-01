@@ -1,6 +1,6 @@
 type: target-group
-name: test
+name: ggdgerg
 conditions:
-  - operator: regex
+  - operator: ne
     property: last_name
-    operand: '12'
+    operand: tretre

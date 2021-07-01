@@ -1,6 +1,6 @@
 type: target-group
-name: qa team
+name: '3424234'
 conditions:
-  - operator: eq
+  - operator: gt
     property: playlist_count
-    operand: 3232
+    operand: 324234

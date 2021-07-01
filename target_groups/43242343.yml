@@ -1,7 +1,7 @@
 type: target-group
-name: Premium User
+name: '43242343'
 conditions:
   - operator: in-array
-    property: plan
+    property: last_name
     operand:
-      - premium
+      - '234234'

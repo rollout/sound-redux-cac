@@ -1,0 +1,16 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: colors variant
+description: 'Experiment: colors variant'
+flag: default.colorsVariant
+availableValues:
+  - red
+  - green
+  - blue
+value:
+  - percentage: 30
+    option: red
+  - percentage: 20
+    option: green
+  - percentage: 20
+    option: blue
