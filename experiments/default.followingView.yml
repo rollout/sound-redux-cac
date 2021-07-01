@@ -15,4 +15,4 @@ conditions:
     value:
       - percentage: 5
         option: true
-value: true
+value: false
