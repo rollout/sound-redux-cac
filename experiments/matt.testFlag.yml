@@ -1,6 +1,5 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-enabled: false
 flag: matt.testFlag
 conditions:
   - value: false
