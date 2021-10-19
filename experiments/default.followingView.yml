@@ -4,6 +4,7 @@ name: following view
 description: 'Experiment: following view'
 labels:
   - report_to_mixpanel
+enabled: false
 flag: default.followingView
 conditions:
   - dependency:
