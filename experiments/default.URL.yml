@@ -1,3 +1,4 @@
+# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: default.URL'
 labels:
@@ -12,3 +13,4 @@ conditions:
   - property:
       name: email
       operator: is-undefined
+    value: null

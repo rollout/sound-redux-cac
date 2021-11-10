@@ -1,3 +1,4 @@
+# This file was edited by Cloudbees Feature Management
 type: experiment
 flag: default.jsonNba
 availableValues:
@@ -11,3 +12,4 @@ conditions:
   - property:
       name: email
       operator: is-undefined
+    value: null
