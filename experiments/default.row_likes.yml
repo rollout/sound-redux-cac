@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Management
 type: experiment
 name: row likes
 description: 'Experiment: row likes'
@@ -6,3 +5,10 @@ flag: default.row_likes
 value:
   - percentage: 50
     option: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value:
+      - percentage: 50
+        option: true

@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: start following words
 description: 'Experiment: start following words'
@@ -15,3 +14,14 @@ value:
     option: Start Following
   - percentage: 34
     option: Follow
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value:
+      - percentage: 33
+        option: Watch Him
+      - percentage: 33
+        option: Start Following
+      - percentage: 34
+        option: Follow

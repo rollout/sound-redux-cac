@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 description: |-
   This flag can will present different CTA options
@@ -7,3 +6,7 @@ flag: NewPayment
 availableValues:
   - Pay
   - Subscribe
+conditions:
+  - property:
+      name: email
+      operator: is-undefined

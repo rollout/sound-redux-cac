@@ -1,5 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 enabled: false
 flag: default.danutFlagExample
 value: false
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: false

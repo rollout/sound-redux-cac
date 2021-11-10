@@ -1,5 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 description: 'Experiment: defaultEL.followingView'
 flag: defaultEL.followingView
 value: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: true

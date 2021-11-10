@@ -1,7 +1,11 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: following view
 description: 'Experiment: following view'
 enabled: false
 flag: default.followingView
 value: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: true

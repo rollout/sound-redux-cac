@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: default.URL'
 labels:
@@ -9,3 +8,7 @@ availableValues:
 platforms:
   - name: Android
     value: Something new
+conditions:
+  - property:
+      name: email
+      operator: is-undefined

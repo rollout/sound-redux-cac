@@ -1,5 +1,9 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 description: 'Experiment: Pay2'
 flag: Pay2
 value: false
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: false

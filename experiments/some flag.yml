@@ -1,6 +1,10 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: Playlist On Shuffle
 description: 'Experiment: Playlist On Shuffle'
 flag: some flag
 value: false
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: false

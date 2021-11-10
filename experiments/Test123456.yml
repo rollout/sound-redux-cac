@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 enabled: false
 flag: Test123456
@@ -6,3 +5,8 @@ platforms:
   - name: Android
     value: false
 value: false
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: false

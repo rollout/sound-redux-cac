@@ -1,7 +1,11 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: justin test delete 2
 description: 'Experiment: justin test delete 2'
 enabled: false
 flag: Justin_test_delete2
 value: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: true

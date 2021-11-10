@@ -1,6 +1,10 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 description: 'Experiment: default.row_comments'
 enabled: false
 flag: default.row_comments
 value: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: true

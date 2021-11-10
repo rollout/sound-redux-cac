@@ -1,4 +1,8 @@
-# This file was edited by Cloudbees Feature Flags
 type: experiment
 flag: followingView8
 value: true
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: true

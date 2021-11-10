@@ -1,4 +1,3 @@
-# This file was edited by Cloudbees Feature Management
 type: experiment
 description: 'Experiment: default.URK'
 labels:
@@ -13,3 +12,7 @@ platforms:
   - name: Browser
     value: yahoo.com
   - name: stam1
+conditions:
+  - property:
+      name: email
+      operator: is-undefined

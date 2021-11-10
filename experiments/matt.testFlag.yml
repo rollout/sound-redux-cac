@@ -1,4 +1,8 @@
-# This file was edited by Cloudbees Feature Management
 type: experiment
 flag: matt.testFlag
 value: false
+conditions:
+  - property:
+      name: email
+      operator: is-undefined
+    value: false
