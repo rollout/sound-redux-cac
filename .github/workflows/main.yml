@@ -21,8 +21,12 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
+      - name: Install npm dependencies
+        run: cd ./.scripts && npm install 
+
       - name: Add Prerequisites
         run: bash  ./.scripts/run_on_all_experiments.sh add_prerequisite_to_each_experiment.js
+
       - name: Commit report
         run: |
           git config --global user.name 'Your Name'
