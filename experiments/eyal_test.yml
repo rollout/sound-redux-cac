@@ -2,4 +2,8 @@
 type: experiment
 enabled: false
 flag: eyal_test
+conditions:
+  - group:
+      name: QA
+    value: false
 value: true
